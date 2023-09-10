@@ -1,5 +1,5 @@
 {
-  "name": "exmarkdown-code-utility",
+  "name": "@jill64/exmarkdown-code-utility",
   "version": "0.1.0",
   "type": "module",
   "description": "Code utility plugin for svelte-exmarkdown",
