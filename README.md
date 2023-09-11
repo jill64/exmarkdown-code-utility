@@ -42,6 +42,9 @@ npm i @jill64/exmarkdown-code-utility
   .exmarkdown-code-copy {
     /* Style of Copy Button (<button/>) */
   }
+  .exmarkdown-code-copy[data-md-filename] {
+    /* Styling when visible filename */
+  }
 </style>
 ```
 
