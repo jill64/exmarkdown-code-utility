@@ -3,26 +3,32 @@
 
   let code: HTMLElement | undefined
 
-  $: fileName =
+  $: filename =
     'class' in $$props && typeof $$props.class === 'string'
       ? $$props.class.split(':')[1]
       : ''
 
   $: isCode = $$props && code?.parentElement?.tagName === 'PRE'
+
+  $: visibleFilename = !$options?.hideFilename && filename
 </script>
 
-{#if fileName && !$options?.hideFilename}<p class="exmarkdown-code-filename">
-    {fileName}
-  </p>{/if}{#if isCode && !$options?.hideCopyButton}<button
+<!-- prettier-ignore -->
+{#if visibleFilename}<p 
+  class="exmarkdown-code-filename"
+>{filename}</p>{/if}{#if isCode && !$options?.hideCopyButton}<button
     title="Copy"
-    style:top="{fileName ? '1.5' : '0.25'}rem"
+    data-md-filename={visibleFilename ? true : null}
     style:position="absolute"
     class="exmarkdown-code-copy"
     on:click={() => {
       const promise = navigator.clipboard.writeText(code?.innerText ?? '')
       $options?.onCopy?.(promise)
     }}>❏</button
-  >{/if}<code bind:this={code} {...$$props}><slot /></code>
+  >{/if}<!-- prettier-ignore --><code 
+  bind:this={code} 
+  {...$$props}
+><slot /></code>
 
 <style>
   button {
@@ -35,5 +41,9 @@
     right: 0.25rem;
     width: 2.5rem;
     height: 2.5rem;
+    top: 0.25rem;
+  }
+  button[data-md-filename] {
+    top: 1.5rem;
   }
 </style>
