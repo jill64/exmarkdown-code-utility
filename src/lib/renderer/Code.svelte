@@ -16,6 +16,7 @@
   </p>{/if}{#if isCode && !$options?.hideCopyButton}<button
     title="Copy"
     style:top="{fileName ? '1.5' : '0.25'}rem"
+    style:position="absolute"
     class="exmarkdown-code-copy"
     on:click={() => {
       const promise = navigator.clipboard.writeText(code?.innerText ?? '')
@@ -26,7 +27,6 @@
 <style>
   button {
     user-select: none;
-    position: absolute;
     display: inline-flex;
     align-items: center;
     justify-content: center;
