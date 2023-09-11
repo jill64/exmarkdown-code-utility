@@ -22,7 +22,8 @@
     style:position="absolute"
     class="exmarkdown-code-copy"
     on:click={() => {
-      const promise = navigator.clipboard.writeText(code?.innerText ?? '')
+      const str = (code?.innerText ?? '').replace(/\n$/, '')
+      const promise = navigator.clipboard.writeText(str)
       $options?.onCopy?.(promise)
     }}>❏</button
   >{/if}<!-- prettier-ignore --><code 
