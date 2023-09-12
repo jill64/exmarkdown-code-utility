@@ -43,7 +43,7 @@
     "svelte-exmarkdown": "^3.0.0"
   },
   "devDependencies": {
-    "@jill64/svelte-input": "0.2.0",
+    "@jill64/svelte-input": "0.3.0",
     "@jill64/svelte-toast": "0.1.0",
     "@playwright/test": "1.37.1",
     "@sveltejs/adapter-static": "2.0.3",
