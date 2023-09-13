@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@jill64/svelte-input':
-    specifier: 0.3.0
-    version: 0.3.0(svelte@4.2.0)
+    specifier: 0.3.1
+    version: 0.3.1(svelte@4.2.0)
   '@jill64/svelte-toast':
     specifier: 0.1.0
     version: 0.1.0(svelte@4.2.0)
@@ -355,14 +355,13 @@ packages:
       svelte: 4.2.0
     dev: true
 
-  /@jill64/svelte-input@0.3.0(svelte@4.2.0):
-    resolution: {integrity: sha512-yPqUY0i4SKemL3Prqg/3n0BoXn/WfLYoywuGulZ25kU8carFLfnFbheg+tG2GadDKPN2fZI3tpS13+zxDuPOzw==}
+  /@jill64/svelte-input@0.3.1(svelte@4.2.0):
+    resolution: {integrity: sha512-ehO07MKAH8FvQLUBsP6TrYzVPe/OS8V5KQg5/GT1eH6BVRmD//uGGcaVVS18EjfJjIgmeS+TM3YpfjsqFG8Ohw==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 0.1.1
       '@jill64/svelte-device-theme': 0.1.0(svelte@4.2.0)
-      '@jill64/svelte-toast': 0.1.0(svelte@4.2.0)
       svelte: 4.2.0
       svelte-loading-spinners: 0.3.4
     dev: true
