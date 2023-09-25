@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@jill64/svelte-input':
-    specifier: 0.3.1
-    version: 0.3.1(svelte@4.2.0)
+    specifier: 0.3.2
+    version: 0.3.2(svelte@4.2.0)
   '@jill64/svelte-toast':
     specifier: 0.1.1
     version: 0.1.1(svelte@4.2.0)
@@ -340,17 +340,8 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@jill64/async-observer@0.1.1:
-    resolution: {integrity: sha512-fRat+/GTJGAXZkGX6qvrXVcaOU/23ZJKvapL8bkFpQXn50C5LbQC8D8+iQk+y99IA/JrWodyADHfoz6g93R2SA==}
-    dependencies:
-      is-promise: 4.0.0
-      svelte: 4.2.0
-    dev: true
-
-  /@jill64/svelte-device-theme@0.1.0(svelte@4.2.0):
-    resolution: {integrity: sha512-EJ0clKWKrQPfFMHf9JaWul3lNNzqSq4xi5PnLyX5CxYf4Ea8RAHpXpxvGjjcU/48z9mfNnRQk6u/uzjHAT1tCg==}
-    peerDependencies:
-      svelte: ^4.0.0
+  /@jill64/async-observer@1.0.1:
+    resolution: {integrity: sha512-J2dvceWNtbh/Phvbd92tBXvc7hw2iVzEfgb4V0akpXs/2ziRST84WZQUGFvC8EGTldqpPaKClhyAzFMOqicxaQ==}
     dependencies:
       svelte: 4.2.0
     dev: true
@@ -363,13 +354,13 @@ packages:
       svelte: 4.2.0
     dev: true
 
-  /@jill64/svelte-input@0.3.1(svelte@4.2.0):
-    resolution: {integrity: sha512-ehO07MKAH8FvQLUBsP6TrYzVPe/OS8V5KQg5/GT1eH6BVRmD//uGGcaVVS18EjfJjIgmeS+TM3YpfjsqFG8Ohw==}
+  /@jill64/svelte-input@0.3.2(svelte@4.2.0):
+    resolution: {integrity: sha512-a4B5P7FHaKvVOz4R0KjQmHKjIYANGv+OlDTvtUKLPe8nZTjtOmyuC5iwxkojI9UCl6ea8WxPMPcVM7faIfVc6Q==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/async-observer': 0.1.1
-      '@jill64/svelte-device-theme': 0.1.0(svelte@4.2.0)
+      '@jill64/async-observer': 1.0.1
+      '@jill64/svelte-device-theme': 1.0.1(svelte@4.2.0)
       svelte: 4.2.0
       svelte-loading-spinners: 0.3.4
     dev: true
@@ -1386,10 +1377,6 @@ packages:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
     engines: {node: '>=12'}
     dev: false
-
-  /is-promise@4.0.0:
-    resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
-    dev: true
 
   /is-reference@3.0.1:
     resolution: {integrity: sha512-baJJdQLiYaJdvFbJqXrcGv3WU3QCzBlUcI5QhbesIm6/xPsvmO+2CDoi/GMOFBQEQm+PXkwOPrp9KK5ozZsp2w==}
