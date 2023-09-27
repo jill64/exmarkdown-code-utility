@@ -48,12 +48,4 @@ npm i @jill64/exmarkdown-code-utility
 </style>
 ```
 
-## Configuration
-
-| Properties       | Type                                  | Description                                                                                                                                         |
-| ---------------- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `onCopy`         | `(promise: Promise<void>) => unknown` | A function that takes a `Promise` as an argument, which is resolved when the copy is complete. Executes when the copy button is clicked. (Optional) |
-| `hideFilename`   | `boolean`                             | (Optional)                                                                                                                                          |
-| `hideCopyButton` | `boolean`                             | (Optional)                                                                                                                                          |
-
-``
+[Plugin Config Types](./src/lib/types/Options.ts)
