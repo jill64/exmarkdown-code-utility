@@ -1,0 +1,10 @@
+name: Release
+
+on:
+  push:
+    branches: main
+
+jobs:
+  release:
+    uses: jill64/reusable-workflow/.github/workflows/release.yml@main
+    secrets: inherit
