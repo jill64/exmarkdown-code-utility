@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@jill64/svelte-input':
-    specifier: 0.3.12
-    version: 0.3.12(svelte@4.2.0)
+    specifier: 0.3.14
+    version: 0.3.14(svelte@4.2.0)
   '@jill64/svelte-toast':
     specifier: 0.1.8
     version: 0.1.8(svelte@4.2.0)
@@ -354,8 +354,8 @@ packages:
       svelte: 4.2.0
     dev: true
 
-  /@jill64/svelte-input@0.3.12(svelte@4.2.0):
-    resolution: {integrity: sha512-TK7lBeV2FVvN3eXmj26IKYGv2wjhoy/2okODYdryJzzb68dk/f+mCWN63CrXi1dPM/2MqGJK3rQHsNhdAkTwXw==}
+  /@jill64/svelte-input@0.3.14(svelte@4.2.0):
+    resolution: {integrity: sha512-rFpYUdU/HhOO+EoMMAE/w7Rn9z/UtuZNTCrlWAKzx/0v4ktPw+2yNVMH2uiRxrAuRXQ6mGl0fmwWT7AWySrNeA==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
