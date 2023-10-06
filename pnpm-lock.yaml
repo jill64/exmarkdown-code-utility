@@ -17,8 +17,8 @@ devDependencies:
     specifier: 0.3.18
     version: 0.3.18(svelte@4.2.0)
   '@jill64/svelte-toast':
-    specifier: 0.1.8
-    version: 0.1.8(svelte@4.2.0)
+    specifier: 0.1.10
+    version: 0.1.10(svelte@4.2.0)
   '@playwright/test':
     specifier: 1.38.1
     version: 1.38.1
@@ -346,14 +346,6 @@ packages:
       svelte: 4.2.1
     dev: true
 
-  /@jill64/svelte-device-theme@1.0.1(svelte@4.2.0):
-    resolution: {integrity: sha512-YQYrpEMJDqMA6orStb2l8RQwbSR4qWpyuMPo3dB4hYFsMhwcFKRX6d7yIm3fUYZcbh1bfNQ5VglV8Dn2sJdprA==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      svelte: 4.2.0
-    dev: true
-
   /@jill64/svelte-device-theme@1.0.4(svelte@4.2.0):
     resolution: {integrity: sha512-yYFll1sr8yU1dP6p5wbkgN22l36R7SqrZQtmrOu63ohUiYztdhLF2WyX8wEyJ8iBA3M2fBsfVP0qid/yf5hOAw==}
     peerDependencies:
@@ -373,12 +365,12 @@ packages:
       svelte-loading-spinners: 0.3.4
     dev: true
 
-  /@jill64/svelte-toast@0.1.8(svelte@4.2.0):
-    resolution: {integrity: sha512-Xa2fVSg08ulD34SrFMtcwG1pROFYyvbKN3sMgrByMmmSzgCqA/OfhVuc4bJSWDxhi/NBtvnOF3cKTOhwNmfvBw==}
+  /@jill64/svelte-toast@0.1.10(svelte@4.2.0):
+    resolution: {integrity: sha512-c6BNmRvcNsAHienSWwaBYZNgTPdcL8ygwzFc6RxFsV9pB75sESVnbGpJYlnHhbxbCBepOl0KCJWFnpi5TmnYkw==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/svelte-device-theme': 1.0.1(svelte@4.2.0)
+      '@jill64/svelte-device-theme': 1.0.4(svelte@4.2.0)
       svelte: 4.2.0
       svelte-french-toast: 1.2.0(svelte@4.2.0)
     dev: true
