@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@jill64/svelte-input':
-    specifier: 0.3.14
-    version: 0.3.14(svelte@4.2.0)
+    specifier: 0.3.17
+    version: 0.3.17(svelte@4.2.0)
   '@jill64/svelte-toast':
     specifier: 0.1.8
     version: 0.1.8(svelte@4.2.0)
@@ -340,10 +340,10 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
-  /@jill64/async-observer@1.0.1:
-    resolution: {integrity: sha512-J2dvceWNtbh/Phvbd92tBXvc7hw2iVzEfgb4V0akpXs/2ziRST84WZQUGFvC8EGTldqpPaKClhyAzFMOqicxaQ==}
+  /@jill64/async-observer@1.0.9:
+    resolution: {integrity: sha512-RJpFZoGAeR0J2nluNu3cP2URwbT1ZjJJOn0OFbjrcQy0GDeKsD0Ewp16fpAVJ1lf3ZyD5OR5syNUoY8m34T2KQ==}
     dependencies:
-      svelte: 4.2.0
+      svelte: 4.2.1
     dev: true
 
   /@jill64/svelte-device-theme@1.0.1(svelte@4.2.0):
@@ -354,13 +354,21 @@ packages:
       svelte: 4.2.0
     dev: true
 
-  /@jill64/svelte-input@0.3.14(svelte@4.2.0):
-    resolution: {integrity: sha512-rFpYUdU/HhOO+EoMMAE/w7Rn9z/UtuZNTCrlWAKzx/0v4ktPw+2yNVMH2uiRxrAuRXQ6mGl0fmwWT7AWySrNeA==}
+  /@jill64/svelte-device-theme@1.0.4(svelte@4.2.0):
+    resolution: {integrity: sha512-yYFll1sr8yU1dP6p5wbkgN22l36R7SqrZQtmrOu63ohUiYztdhLF2WyX8wEyJ8iBA3M2fBsfVP0qid/yf5hOAw==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/async-observer': 1.0.1
-      '@jill64/svelte-device-theme': 1.0.1(svelte@4.2.0)
+      svelte: 4.2.0
+    dev: true
+
+  /@jill64/svelte-input@0.3.17(svelte@4.2.0):
+    resolution: {integrity: sha512-Z/jMVGoTS6HuqvG55BKmm2Ts7RHzVhFUxbDkuTxQwDtxL8DcRSdIFpFnL5R3p+fO0vYFc50zpANRRMwfsDVHHw==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.0.9
+      '@jill64/svelte-device-theme': 1.0.4(svelte@4.2.0)
       svelte: 4.2.0
       svelte-loading-spinners: 0.3.4
     dev: true
@@ -2495,6 +2503,25 @@ packages:
       locate-character: 3.0.0
       magic-string: 0.30.3
       periscopic: 3.1.0
+
+  /svelte@4.2.1:
+    resolution: {integrity: sha512-LpLqY2Jr7cRxkrTc796/AaaoMLF/1ax7cto8Ot76wrvKQhrPmZ0JgajiWPmg9mTSDqO16SSLiD17r9MsvAPTmw==}
+    engines: {node: '>=16'}
+    dependencies:
+      '@ampproject/remapping': 2.2.1
+      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/trace-mapping': 0.3.19
+      acorn: 8.10.0
+      aria-query: 5.3.0
+      axobject-query: 3.2.1
+      code-red: 1.0.4
+      css-tree: 2.3.1
+      estree-walker: 3.0.3
+      is-reference: 3.0.1
+      locate-character: 3.0.0
+      magic-string: 0.30.3
+      periscopic: 3.1.0
+    dev: true
 
   /text-table@0.2.0:
     resolution: {integrity: sha512-N+8UisAXDGk8PFXP4HAzVR9nbfmVJ3zYLAWiTIoqC5v5isinhr+r5uaO8+7r3BMfuNIufIsA7RdpVgacC2cSpw==}
