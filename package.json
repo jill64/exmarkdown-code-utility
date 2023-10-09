@@ -59,7 +59,7 @@
     "vite": "4.4.11"
   },
   "dependencies": {
-    "svelte": "^4.2.0",
-    "svelte-exmarkdown": "^3.0.0"
+    "svelte": "4.2.1",
+    "svelte-exmarkdown": "3.0.1"
   }
 }
