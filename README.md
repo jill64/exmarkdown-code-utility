@@ -1,5 +1,7 @@
 # exmarkdown-code-utility
 
+[![npm](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility)
+
 Code utility plugin for [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 
 [Demo](https://jill64.github.io/exmarkdown-code-utility)
