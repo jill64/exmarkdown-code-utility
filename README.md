@@ -1,5 +1,6 @@
 # exmarkdown-code-utility
 
+[![npm](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility)
 [![CI](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml)
 
 Code utility plugin for [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
