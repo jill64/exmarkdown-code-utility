@@ -1,6 +1,6 @@
 {
   "name": "@jill64/exmarkdown-code-utility",
-  "version": "0.1.29",
+  "version": "0.1.30",
   "type": "module",
   "description": "Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
@@ -43,7 +43,7 @@
     "svelte-exmarkdown": "^3.0.0"
   },
   "devDependencies": {
-    "@jill64/svelte-input": "0.3.21",
+    "@jill64/svelte-input": "0.3.23",
     "@jill64/svelte-toast": "0.1.10",
     "@playwright/test": "1.38.1",
     "@sveltejs/adapter-static": "2.0.3",
