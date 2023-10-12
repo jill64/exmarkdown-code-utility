@@ -46,7 +46,7 @@
   "devDependencies": {
     "@jill64/svelte-input": "0.3.31",
     "@jill64/svelte-toast": "0.1.18",
-    "@playwright/test": "1.38.1",
+    "@playwright/test": "1.39.0",
     "@sveltejs/adapter-static": "2.0.3",
     "@sveltejs/kit": "1.25.2",
     "@typescript-eslint/eslint-plugin": "6.7.5",
