@@ -1,0 +1,7 @@
+branch-protection:
+  main:
+    required_status_checks:
+      contexts:
+        - check / check
+        - integration / run-playwright
+        - publish-pages / publish-pages
