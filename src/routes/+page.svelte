@@ -10,7 +10,10 @@
 </script>
 
 <Toaster />
-<h1>exmarkdown-code-utility</h1>
+<header>
+  <h1>exmarkdown-code-utility</h1>
+  <a href="https://github.com/jill64/exmarkdown-code-utility">GitHub</a>
+</header>
 <main>
   <TextArea
     placeholder="Markdown"
@@ -60,5 +63,18 @@
     color: inherit;
     border: solid 1px #aaa;
     border-radius: 0.5rem;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+  header a {
+    color: inherit;
+    text-decoration: none;
+  }
+  header a:hover {
+    text-decoration: underline;
   }
 </style>
