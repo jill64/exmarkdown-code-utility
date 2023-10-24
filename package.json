@@ -33,7 +33,7 @@
     "build": "vite build && npm run package",
     "preview": "pnpm build && vite preview",
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "test:e2e": "npx playwright install && playwright test",
+    "test:e2e": "npx playwright install --with-deps && playwright test",
     "prepack": "npm run build",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
