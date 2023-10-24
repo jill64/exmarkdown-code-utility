@@ -34,7 +34,7 @@
     "prepack": "npm run build",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint && npm run check"
+    "lint": "npx prettier --check . --plugin prettier-plugin-svelte . && npx eslint . && npm run check"
   },
   "peerDependencies": {
     "svelte": "^4.0.0",
@@ -48,6 +48,7 @@
     "@sveltejs/kit": "1.27.0",
     "@typescript-eslint/eslint-plugin": "6.9.0",
     "@typescript-eslint/parser": "6.9.0",
+    "eslint-plugin-deprecation": "2.0.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-svelte": "2.34.0",
     "highlight.js": "11.9.0",
