@@ -1,11 +1,7 @@
-# exmarkdown-code-utility
+<!----- BEGIN GHOST DOCS HEADER ----->
+<!----- END GHOST DOCS HEADER ----->
 
-[![npm](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility)
-[![Deploy](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml)
-[![Integration](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/integration.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/integration.yml)
-
-Code utility plugin for [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
-
+[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 [Demo](https://jill64.github.io/exmarkdown-code-utility)
 
 This plugin adds the following utility to code section in `svelte-exmarkdown`
@@ -16,7 +12,7 @@ This plugin adds the following utility to code section in `svelte-exmarkdown`
 ## Install
 
 ```sh
-npm i exmarkdown-code-utility
+npm i -D exmarkdown-code-utility
 ```
 
 ## Example
