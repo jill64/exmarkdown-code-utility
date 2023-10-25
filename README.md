@@ -1,11 +1,14 @@
+<!----- BEGIN GHOST DOCS HEADER ----->
+
 # exmarkdown-code-utility
 
-[![npm](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility)
-[![Deploy](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml)
-[![Integration](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/integration.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/integration.yml)
+[![npm-version](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-license](https://img.shields.io/npm/l/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-download-month](https://img.shields.io/npm/dm/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-min-size](https://img.shields.io/bundlephobia/min/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![deploy.yml](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml)
 
-Code utility plugin for [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
+Code utility plugin for svelte-exmarkdown
 
+<!----- END GHOST DOCS HEADER ----->
+
+[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 [Demo](https://jill64.github.io/exmarkdown-code-utility)
 
 This plugin adds the following utility to code section in `svelte-exmarkdown`
@@ -16,7 +19,7 @@ This plugin adds the following utility to code section in `svelte-exmarkdown`
 ## Install
 
 ```sh
-npm i exmarkdown-code-utility
+npm i -D exmarkdown-code-utility
 ```
 
 ## Example

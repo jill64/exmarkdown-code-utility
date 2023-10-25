@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "0.2.16",
+  "version": "1.0.0",
   "type": "module",
   "description": "Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
@@ -14,12 +14,15 @@
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js",
       "default": "./dist/index.js"
     }
   },
   "keywords": [
     "svelte",
-    "markdown"
+    "markdown",
+    "code",
+    "utility"
   ],
   "repository": {
     "type": "git",
@@ -30,7 +33,7 @@
     "build": "vite build && npm run package",
     "preview": "pnpm build && vite preview",
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "test:e2e": "npx playwright install && playwright test",
+    "test:e2e": "npx playwright install --with-deps && playwright test",
     "prepack": "npm run build",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
@@ -51,9 +54,7 @@
     "eslint-plugin-deprecation": "2.0.0",
     "eslint-config-prettier": "9.0.0",
     "eslint-plugin-svelte": "2.34.0",
-    "highlight.js": "11.9.0",
     "prettier-plugin-svelte": "3.0.3",
-    "tslib": "2.6.2",
     "typescript": "5.2.2",
     "vite": "4.5.0"
   },

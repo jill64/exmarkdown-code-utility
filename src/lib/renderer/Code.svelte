@@ -24,7 +24,7 @@
     on:click={() => {
       const str = (code?.innerText ?? '').replace(/\n$/, '')
       const promise = navigator.clipboard.writeText(str)
-      $options?.onCopy?.(promise)
+      $options?.onCopy?.(promise.then(() => str))
     }}>❏</button
   >{/if}<!-- prettier-ignore --><code 
   bind:this={code} 

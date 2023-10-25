@@ -10,11 +10,14 @@
 </script>
 
 <Toaster />
-<h1>exmarkdown-code-utility</h1>
+<header>
+  <h1>exmarkdown-code-utility</h1>
+  <a href="https://github.com/jill64/exmarkdown-code-utility">GitHub</a>
+</header>
 <main>
   <TextArea
     placeholder="Markdown"
-    style="background: inherit; color: inherit;"
+    style="background: inherit; color: inherit; width: 100%; max-width: 600px; min-width: 300px;"
     bind:value={md}
   />
   <div data-testid="markdown-preview">
@@ -37,9 +40,15 @@
 
 <style>
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-gap: 1rem;
+  }
+  div {
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
   }
   :global(body) {
     font-family: sans-serif;
@@ -51,6 +60,8 @@
     }
   }
   :global(.exmarkdown-code-filename) {
+    font-size: large;
+    font-weight: bold;
     text-decoration: underline;
   }
   :global(.exmarkdown-code-copy) {
@@ -60,5 +71,32 @@
     color: inherit;
     border: solid 1px #aaa;
     border-radius: 0.5rem;
+  }
+  :global(.exmarkdown-code-copy):hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  :global(.exmarkdown-code-copy):active {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  @media (prefers-color-scheme: dark) {
+    :global(.exmarkdown-code-copy):hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    :global(.exmarkdown-code-copy):active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+  header a {
+    color: inherit;
+    text-decoration: none;
+  }
+  header a:hover {
+    text-decoration: underline;
   }
 </style>
