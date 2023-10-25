@@ -30,7 +30,7 @@
 <main>
   <TextArea
     placeholder="Markdown"
-    style="background: inherit; color: inherit;"
+    style="background: inherit; color: inherit; width: 100%; max-width: 600px; min-width: 300px;"
     bind:value={md}
   />
   <div data-testid="markdown-preview">
@@ -55,9 +55,15 @@
 
 <style>
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     grid-gap: 1rem;
+  }
+  div {
+    width: 100%;
+    min-width: 300px;
+    max-width: 600px;
   }
   :global(body) {
     font-family: sans-serif;
