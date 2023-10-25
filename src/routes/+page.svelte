@@ -2,7 +2,6 @@
   import { codeUtility } from '$lib/index.js'
   import { TextArea } from '@jill64/svelte-input'
   import { toast, Toaster } from '@jill64/svelte-toast'
-  import 'highlight.js/styles/github-dark.css'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import mock from './mock.md?raw'
