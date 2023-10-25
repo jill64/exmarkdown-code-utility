@@ -8,7 +8,7 @@ Code utility plugin for svelte-exmarkdown
 
 <!----- END GHOST DOCS HEADER ----->
 
-[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
+[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)  
 [Demo](https://jill64.github.io/exmarkdown-code-utility)
 
 This plugin adds the following utility to code section in `svelte-exmarkdown`
