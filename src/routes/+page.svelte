@@ -1,25 +1,13 @@
 <script lang="ts">
-  import { browser } from '$app/environment'
   import { codeUtility } from '$lib/index.js'
   import { TextArea } from '@jill64/svelte-input'
   import { toast, Toaster } from '@jill64/svelte-toast'
-  import hljs from 'highlight.js'
   import 'highlight.js/styles/github-dark.css'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import mock from './mock.md?raw'
 
   let md = mock
-  let show = true
-
-  $: if (browser) {
-    md
-    show = false
-    setTimeout(() => {
-      show = true
-      setTimeout(() => hljs.highlightAll(), 0)
-    }, 0)
-  }
 </script>
 
 <Toaster />
@@ -34,22 +22,20 @@
     bind:value={md}
   />
   <div data-testid="markdown-preview">
-    {#if show}
-      <Markdown
-        {md}
-        plugins={[
-          gfmPlugin(),
-          codeUtility({
-            onCopy: (promise) =>
-              $toast.promise(promise, {
-                loading: 'Copying...',
-                success: 'Copied!',
-                error: 'Failed to copy'
-              })
-          })
-        ]}
-      />
-    {/if}
+    <Markdown
+      {md}
+      plugins={[
+        gfmPlugin(),
+        codeUtility({
+          onCopy: (promise) =>
+            $toast.promise(promise, {
+              loading: 'Copying...',
+              success: 'Copied!',
+              error: 'Failed to copy'
+            })
+        })
+      ]}
+    />
   </div>
 </main>
 
@@ -76,6 +62,8 @@
   }
   :global(.exmarkdown-code-filename) {
     font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
   }
   :global(.exmarkdown-code-copy) {
     cursor: pointer;
@@ -84,7 +72,6 @@
     color: inherit;
     border: solid 1px #aaa;
     border-radius: 0.5rem;
-    margin-top: 1rem;
   }
   :global(.exmarkdown-code-copy):hover {
     background: rgba(0, 0, 0, 0.1);
