@@ -18,5 +18,5 @@ test('smoke', async ({ page }) => {
     \`\`\`
   `)
 
-  await expect(preview).toContainText('index.js')
+  await expect(page.getByTestId('markdown-preview')).toContainText('index.js')
 })
