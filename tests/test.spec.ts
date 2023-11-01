@@ -10,11 +10,13 @@ test('smoke', async ({ page }) => {
 
   const textarea = page.getByPlaceholder('Markdown')
 
+  await textarea.clear()
+
   await textarea.fill(`
     \`\`\`js:index.js
     console.log('Hello World')
     \`\`\`
   `)
 
-  await expect(preview).toContainText('index.js')
+  await expect(page.getByTestId('markdown-preview')).toContainText('index.js')
 })
