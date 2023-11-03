@@ -16,19 +16,10 @@ npm i exmarkdown-code-utility
 
 <!----- END GHOST DOCS HEADER ----->
 
-[svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)  
-[Demo](https://jill64.github.io/exmarkdown-code-utility)
-
-This plugin adds the following utility to code section in `svelte-exmarkdown`
+This plugin adds the following utility to code section in [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)  
 
 - Code Copy Button
 - Show Filename
-
-## Install
-
-```sh
-npm i -D exmarkdown-code-utility
-```
 
 ## Example
 
