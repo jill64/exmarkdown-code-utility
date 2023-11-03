@@ -16,7 +16,7 @@ npm i exmarkdown-code-utility
 
 <!----- END GHOST DOCS HEADER ----->
 
-This plugin adds the following utility to code section in [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)  
+This plugin adds the following utility to code section in [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
 
 - Code Copy Button
 - Show Filename
