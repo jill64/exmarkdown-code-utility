@@ -16,8 +16,6 @@ rules:
   deprecation/deprecation: error
 env:
   browser: true
-  es2017: true
-  node: true
 overrides:
   - files:
       - '*.svelte'

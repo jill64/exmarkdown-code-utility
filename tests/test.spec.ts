@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test'
 
 test('smoke', async ({ page }) => {
-  await page.goto('/exmarkdown-code-utility')
+  await page.goto('/')
 
   const preview = page.getByTestId('markdown-preview')
 
