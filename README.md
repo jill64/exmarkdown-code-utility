@@ -1,5 +1,4 @@
 <!----- BEGIN GHOST DOCS HEADER ----->
-
 # exmarkdown-code-utility
 
 [![npm-version](https://img.shields.io/npm/v/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-license](https://img.shields.io/npm/l/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-download-month](https://img.shields.io/npm/dm/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![npm-min-size](https://img.shields.io/bundlephobia/min/exmarkdown-code-utility)](https://npmjs.com/package/exmarkdown-code-utility) [![ci.yml](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml) [![deploy.yml](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml/badge.svg)](https://github.com/jill64/exmarkdown-code-utility/actions/workflows/deploy.yml) [![github-pages](https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fjill64.github.io%2Fexmarkdown-code-utility%2F)](https://jill64.github.io/exmarkdown-code-utility/)
@@ -13,7 +12,6 @@ Code utility plugin for svelte-exmarkdown
 ```sh
 npm i exmarkdown-code-utility
 ```
-
 <!----- END GHOST DOCS HEADER ----->
 
 This plugin adds the following utility to code section in [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
