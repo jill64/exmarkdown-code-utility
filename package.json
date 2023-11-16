@@ -2,7 +2,7 @@
   "name": "exmarkdown-code-utility",
   "version": "1.1.0",
   "type": "module",
-  "description": "Code utility plugin for svelte-exmarkdown",
+  "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
   "license": "MIT",
   "author": "jill64 <intents.turrets0h@icloud.com> (https://github.com/jill64)",
