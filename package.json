@@ -71,7 +71,7 @@
     "unified": "11.0.4"
   },
   "dependencies": {
-    "@jill64/async-observer": "1.1.4",
+    "@jill64/async-observer": "1.2.0",
     "svelte-feather-icons": "4.0.1",
     "svelte-highlight": "7.4.1",
     "unist-util-visit": "5.0.0"
