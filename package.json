@@ -66,9 +66,10 @@
     "prettier-plugin-svelte": "3.1.0",
     "svelte": "4.2.5",
     "svelte-exmarkdown": "3.0.1",
+    "svelte-qparam": "^0.0.1",
     "typescript": "5.2.2",
-    "vite": "5.0.0",
-    "unified": "11.0.4"
+    "unified": "11.0.4",
+    "vite": "5.0.0"
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.0",
