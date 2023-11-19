@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "type": "module",
   "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
@@ -70,6 +70,7 @@
     "vite": "5.0.0"
   },
   "dependencies": {
+    "@jill64/async-observer": "1.1.4",
     "svelte-feather-icons": "4.0.1",
     "svelte-highlight": "7.4.1",
     "unist-util-visit": "5.0.0"

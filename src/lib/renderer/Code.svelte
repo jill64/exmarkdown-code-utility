@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { CopyIcon } from 'svelte-feather-icons'
+  import { observable } from '@jill64/async-observer'
+  import { CheckIcon, CopyIcon, LoaderIcon, XIcon } from 'svelte-feather-icons'
   import { HighlightAuto } from 'svelte-highlight'
   import { options } from '../options.js'
 
@@ -9,18 +10,38 @@
     Object.entries($$props).filter(([key]) => key !== 'data-source')
   )
 
-  $: onCopy = () => {
+  const { status, observed } = observable()
+
+  $: onCopy = observed(async () => {
     const str = (source ?? '').replace(/\n$/, '')
     const promise = navigator.clipboard.writeText(str)
     $options?.onCopy?.(promise.then(() => str))
-  }
+    await promise
+  })
+
+  $: size = $options?.copyButton?.iconSize?.toString() ?? '16'
+  $: defaultColor = $options?.copyButton?.iconColor?.default ?? 'inherit'
+  $: success = $options?.copyButton?.iconColor?.success ?? 'green'
+  $: error = $options?.copyButton?.iconColor?.error ?? 'red'
 </script>
 
 {#if source && !$options?.hideCopyButton}<button
     title="Copy"
     style:position="absolute"
+    style:color={$status === 'FULFILLED'
+      ? success
+      : $status === 'REJECTED'
+        ? error
+        : defaultColor}
     class="exmarkdown-code-copy"
-    on:click={onCopy}><CopyIcon size="16" /></button
+    on:click={onCopy}
+    >{#if $status === 'IDLE'}<CopyIcon
+        {size}
+      />{:else if $status === 'PENDING'}<LoaderIcon
+        {size}
+      />{:else if $status === 'FULFILLED'}<CheckIcon {size} />{:else}<XIcon
+        {size}
+      />{/if}</button
   >{/if}{#if $options?.highlight}<HighlightAuto
     {...attributes}
     code={source}

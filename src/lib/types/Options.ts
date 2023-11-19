@@ -32,4 +32,26 @@ export type Options = {
    * @default 'div'
    */
   filenameTag?: 'p' | 'span' | 'div' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
+
+  copyButton?: {
+    /**
+     * Copy button icon size. (px)
+     * @default 116
+     */
+    iconSize?: number
+
+    /**
+     * Copy button icon color.
+     */
+    iconColor?: {
+      /** @default inherit */
+      default?: string
+
+      /** @default green */
+      success?: string
+
+      /** @default red */
+      error?: string
+    }
+  }
 }
