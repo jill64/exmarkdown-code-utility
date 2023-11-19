@@ -65,7 +65,7 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1(svelte@4.2.5)
   svelte-qparam:
-    specifier: ^0.0.1
+    specifier: 0.0.1
     version: 0.0.1(@sveltejs/kit@1.27.6)(svelte@4.2.5)
   typescript:
     specifier: 5.2.2
