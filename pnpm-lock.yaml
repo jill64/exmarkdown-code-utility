@@ -12,7 +12,7 @@ dependencies:
     specifier: 7.4.1
     version: 7.4.1
   unist-util-visit:
-    specifier: ^5.0.0
+    specifier: 5.0.0
     version: 5.0.0
 
 devDependencies:

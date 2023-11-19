@@ -72,6 +72,6 @@
   "dependencies": {
     "svelte-feather-icons": "4.0.1",
     "svelte-highlight": "7.4.1",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "5.0.0"
   }
 }
