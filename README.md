@@ -68,9 +68,7 @@ HTML
 ```html
 <div class="exmarkdown-code-filename">filename</div>
 <div>
-  <button class="exmarkdown-code-copy">
-    ❏
-  </button>
+  <button class="exmarkdown-code-copy">❏</button>
   <pre>
     <code>
       <!-- ... -->

@@ -31,8 +31,8 @@
     style:color={$status === 'FULFILLED'
       ? success
       : $status === 'REJECTED'
-      ? error
-      : defaultColor}
+        ? error
+        : defaultColor}
     class="exmarkdown-code-copy"
     on:click={onCopy}
     >{#if $status === 'IDLE'}<CopyIcon
