@@ -45,7 +45,7 @@
   >{/if}{#if $options?.highlight}<HighlightAuto
     {...attributes}
     code={source}
-  />{:else}<code {...attributes}><slot /></code>{/if}
+  />{:else}<pre><code {...attributes}><slot /></code></pre>{/if}
 
 <style>
   button {

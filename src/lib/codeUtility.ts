@@ -78,6 +78,7 @@ export const codeUtility = (options?: Options): Plugin => {
         }
       }
 
+      child.tagName = 'div'
       child.properties.style = 'position: relative;'
 
       child.children = [
