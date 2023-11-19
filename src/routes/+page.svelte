@@ -1,13 +1,21 @@
 <script lang="ts">
   import { codeUtility } from '$lib/index.js'
+  import { theme } from '@jill64/svelte-dark-theme'
   import { TextArea } from '@jill64/svelte-input'
   import { toast } from '@jill64/svelte-toast'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
+  import github from 'svelte-highlight/styles/github'
+  import githubDark from 'svelte-highlight/styles/github-dark'
   import mock from './mock.md?raw'
 
   let md = mock
 </script>
+
+<svelte:head>
+  <!-- eslint-disable-next-line svelte/no-at-html-tags -->
+  {@html $theme === 'dark' ? githubDark : github}
+</svelte:head>
 
 <main>
   <TextArea
@@ -22,6 +30,7 @@
       plugins={[
         gfmPlugin(),
         codeUtility({
+          highlight: true,
           onCopy: (promise) =>
             $toast.promise(promise, {
               loading: 'Copying...',
@@ -46,7 +55,6 @@
     }
   }
   output {
-    border: 1px solid #aaa;
     padding: 0.5rem;
     border-radius: 0.5rem;
     overflow-x: auto;
@@ -61,8 +69,8 @@
     margin-left: 0.5rem;
     background: inherit;
     color: inherit;
-    border: solid 1px #aaa;
     border-radius: 0.5rem;
+    border: none;
   }
   :global(.exmarkdown-code-copy):hover {
     background: rgba(0, 0, 0, 0.1);
