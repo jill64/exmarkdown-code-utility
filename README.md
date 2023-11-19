@@ -6,6 +6,8 @@
 
 ❏ Code utility plugin for svelte-exmarkdown
 
+## [Demo](https://exmarkdown-code-utility.jill64.dev)
+
 ## Installation
 
 ```sh
@@ -18,6 +20,7 @@ This plugin adds the following utility to code section in [svelte-exmarkdown](ht
 
 - Code Copy Button
 - Show Filename
+- Code Highlighting
 
 ## Example
 
@@ -25,31 +28,97 @@ This plugin adds the following utility to code section in [svelte-exmarkdown](ht
 <script>
   import { codeUtility } from 'exmarkdown-code-utility'
   import { Markdown } from 'svelte-exmarkdown'
-
-  // ...
 </script>
 
 <Markdown
-  md={/*...*/}
   plugins={[
     // ...
     codeUtility({
-      // Configuration (optional)
+      // Plugin Options
     })
   ]}
 />
 
 <style>
   .exmarkdown-code-filename {
-    /* Style of Filename section (<p/>) */
+    /* Style of Filename section (<div/>) */
   }
   .exmarkdown-code-copy {
     /* Style of Copy Button (<button/>) */
   }
-  .exmarkdown-code-copy[data-md-filename] {
-    /* Styling when visible filename */
-  }
 </style>
 ```
 
-[Plugin Config Types](./src/lib/types/Options.ts)
+[Full Plugin Options](./src/lib/types/Options.ts)
+
+This will result in the following conversions
+
+Markdown
+
+````md
+```html:filename
+<!-- ... -->
+```
+````
+
+↓
+
+HTML
+
+```html
+<div class="exmarkdown-code-filename">filename</div>
+<pre>
+  <button class="exmarkdown-code-copy">
+    ❏
+  </button>
+  <code>
+    <!-- ... -->
+  </code>
+</pre>
+```
+
+## Code Highlighting
+
+This plugin uses [svelte-highlight](https://github.com/metonym/svelte-highlight) for code highlighting.
+
+### Usage
+
+1. Enable the `highlight` option
+
+```svelte
+<script>
+  import { Markdown } from 'svelte-exmarkdown'
+  import { codeUtility } from 'exmarkdown-code-utility'
+</script>
+
+<Markdown
+  plugins={[
+    codeUtility({
+      highlight: true
+    })
+  ]}
+/>
+```
+
+2. Import the stylesheet
+
+```svelte
+<script>
+  import 'exmarkdown-code-utility/styles/github.css'
+</script>
+```
+
+or
+
+```svelte
+<script lang="ts">
+  import github from 'svelte-highlight/styles/github'
+</script>
+
+<svelte:head>
+  <!-- eslint-disable-next-line svelte/no-at-html-tags -->
+  {@html github}
+</svelte:head>
+```
+
+See [svelte-highlight/styling](https://github.com/metonym/svelte-highlight?tab=readme-ov-file#styling) for details.
