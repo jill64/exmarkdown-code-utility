@@ -6,6 +6,8 @@
 
 ❏ Code utility plugin for svelte-exmarkdown
 
+## [Demo](https://exmarkdown-code-utility.jill64.dev)
+
 ## Installation
 
 ```sh
