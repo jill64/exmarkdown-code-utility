@@ -67,14 +67,16 @@ HTML
 
 ```html
 <div class="exmarkdown-code-filename">filename</div>
-<pre>
+<div>
   <button class="exmarkdown-code-copy">
     ❏
   </button>
-  <code>
-    <!-- ... -->
-  </code>
-</pre>
+  <pre>
+    <code>
+      <!-- ... -->
+    </code>
+  </pre>
+</div>
 ```
 
 ## Code Highlighting

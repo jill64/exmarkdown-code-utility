@@ -31,8 +31,8 @@
     style:color={$status === 'FULFILLED'
       ? success
       : $status === 'REJECTED'
-        ? error
-        : defaultColor}
+      ? error
+      : defaultColor}
     class="exmarkdown-code-copy"
     on:click={onCopy}
     >{#if $status === 'IDLE'}<CopyIcon
@@ -45,7 +45,7 @@
   >{/if}{#if $options?.highlight}<HighlightAuto
     {...attributes}
     code={source}
-  />{:else}<code {...attributes}><slot /></code>{/if}
+  />{:else}<pre><code {...attributes}><slot /></code></pre>{/if}
 
 <style>
   button {
