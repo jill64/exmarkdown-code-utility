@@ -2,7 +2,7 @@
   import { page } from '$app/stores'
   import { codeUtility } from '$lib/index.js'
   import { theme } from '@jill64/svelte-dark-theme'
-  import { TextArea, ToggleSwitch } from '@jill64/svelte-input'
+  import { TextArea } from '@jill64/svelte-input'
   import { toast } from '@jill64/svelte-toast'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
@@ -10,22 +10,23 @@
   import githubDark from 'svelte-highlight/styles/github-dark'
   import { define } from 'svelte-qparam'
   import { boolean } from 'svelte-qparam/converter'
+  import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
 
   const qparam = define({
-    highlight: boolean,
-    copy_button: boolean,
-    filename: boolean
+    no_highlight: boolean,
+    hide_copy: boolean,
+    hide_filename: boolean
   })
 
   $: ({ qparams } = qparam($page.url))
-  $: ({ highlight, copy_button, filename } = qparams)
+  $: ({ no_highlight, hide_copy, hide_filename } = qparams)
 
   let md = mock
 </script>
 
 <svelte:head>
-  {#if highlight}
+  {#if !$no_highlight}
     <!-- eslint-disable-next-line svelte/no-at-html-tags -->
     {@html $theme === 'dark' ? githubDark : github}
   {/if}
@@ -40,15 +41,9 @@
   />
   <div class="output">
     <aside>
-      <ToggleSwitch value={$highlight} onChange={highlight.set}>
-        <span style:margin-left="0.5rem">Highlight</span>
-      </ToggleSwitch>
-      <ToggleSwitch value={$copy_button} onChange={copy_button.set}>
-        <span style:margin-left="0.5rem">Copy Button</span>
-      </ToggleSwitch>
-      <ToggleSwitch value={$filename} onChange={filename.set}>
-        <span style:margin-left="0.5rem">File Name</span>
-      </ToggleSwitch>
+      <InvertedToggle param={no_highlight} label="Highlight" />
+      <InvertedToggle param={hide_copy} label="Copy Button" />
+      <InvertedToggle param={hide_filename} label="File Name" />
     </aside>
     <output data-testid="markdown-preview">
       <Markdown
@@ -56,9 +51,9 @@
         plugins={[
           gfmPlugin(),
           codeUtility({
-            highlight: $highlight,
-            hideCopyButton: !$copy_button,
-            hideFilename: !$filename,
+            highlight: !$no_highlight,
+            hideCopyButton: $hide_copy,
+            hideFilename: $hide_filename,
             onCopy: (promise) =>
               $toast.promise(promise, {
                 loading: 'Copying...',
