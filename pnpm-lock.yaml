@@ -26,8 +26,8 @@ devDependencies:
     specifier: 2.2.1
     version: 2.2.1(@sveltejs/kit@1.27.6)(svelte@4.2.7)
   '@jill64/svelte-input':
-    specifier: 1.4.1
-    version: 1.4.1(svelte@4.2.7)
+    specifier: 1.4.2
+    version: 1.4.2(svelte@4.2.7)
   '@jill64/svelte-toast':
     specifier: 1.1.0
     version: 1.1.0(svelte@4.2.7)
@@ -606,8 +606,8 @@ packages:
       svelte: 4.2.7
     dev: true
 
-  /@jill64/svelte-input@1.4.1(svelte@4.2.7):
-    resolution: {integrity: sha512-IpMzEvQjHmOqL8shgyF5ACKt3caFqrGhbBjG3tf7rA+Gpuh2swWAwvHiDWN2iPs/S6C++OOo0MX19Wa8kGVutw==}
+  /@jill64/svelte-input@1.4.2(svelte@4.2.7):
+    resolution: {integrity: sha512-219QMrUvGtva5d5ZUeg+LsnK/911mI3ZzmO6XuDIcXi6e5XmxiWQMS86zSqh7048Rzbbny6XHt2WYcB2syLPAA==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
