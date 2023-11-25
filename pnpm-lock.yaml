@@ -12,8 +12,8 @@ dependencies:
     specifier: 4.0.1
     version: 4.0.1
   svelte-highlight:
-    specifier: 7.4.1
-    version: 7.4.1
+    specifier: 7.4.2
+    version: 7.4.2
   unist-util-visit:
     specifier: 5.0.0
     version: 5.0.0
@@ -2715,8 +2715,8 @@ packages:
       svelte-writable-derived: 3.1.0(svelte@4.2.7)
     dev: true
 
-  /svelte-highlight@7.4.1:
-    resolution: {integrity: sha512-ZjPUQn16bESqmzXzrQXfWKidwUabHNxysGIOUdbsxqBtDe8s33V9z6K697sszQITQ9k6hrMUpTICWLm2GIW5xQ==}
+  /svelte-highlight@7.4.2:
+    resolution: {integrity: sha512-J0AGYK1bJCc5t4P8bT7NuCc0224XurJKF57YUJPxj8sqbfAYICyom5+spF2fyPHGKgZtkX8jNQLGwHgPzfCapA==}
     dependencies:
       highlight.js: 11.9.0
     dev: false
