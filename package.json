@@ -44,7 +44,7 @@
     "prepack": "npm run build",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx prettier --write . --plugin prettier-plugin-svelte .",
-    "lint": "npx eslint . && npm run check"
+    "lint": "npm run check && npx eslint ."
   },
   "peerDependencies": {
     "svelte": "^4.0.0",
