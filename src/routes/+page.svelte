@@ -9,7 +9,7 @@
   import github from 'svelte-highlight/styles/github'
   import githubDark from 'svelte-highlight/styles/github-dark'
   import { define } from 'svelte-qparam'
-  import { boolean } from 'svelte-qparam/converter'
+  import { boolean } from 'svelte-qparam/serde'
   import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
 
