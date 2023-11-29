@@ -29,8 +29,8 @@ devDependencies:
     specifier: 1.5.2
     version: 1.5.2(svelte@4.2.7)
   '@jill64/svelte-toast':
-    specifier: 1.2.0
-    version: 1.2.0(svelte@4.2.7)
+    specifier: 1.2.1
+    version: 1.2.1(svelte@4.2.7)
   '@playwright/test':
     specifier: 1.40.1
     version: 1.40.1
@@ -587,15 +587,6 @@ packages:
       typescanner: 0.5.3
     dev: true
 
-  /@jill64/svelte-device-theme@1.2.1(svelte@4.2.7):
-    resolution: {integrity: sha512-1KCfKxXHoNNVPxoaeo8tqCGOH+3X+4OS+lSFEZP6NCiREbrL1cHB2P9mIUN8Xr6HIE1CYlAZIUQBUpb47hadKw==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      svelte: 4.2.7
-      svelte-mq-store: 0.0.1(svelte@4.2.7)
-    dev: true
-
   /@jill64/svelte-device-theme@1.2.2(svelte@4.2.7):
     resolution: {integrity: sha512-M4woCkhP0lmzPZQq71WEIoc2qvep+RLFI5X/iquZCLTXwwiqlrapmeOQQ2Ic/iHrEAmrH/VF0+b88Ib7QqdHtA==}
     peerDependencies:
@@ -626,15 +617,15 @@ packages:
       svelte-loading-spinners: 0.3.4
     dev: true
 
-  /@jill64/svelte-toast@1.2.0(svelte@4.2.7):
-    resolution: {integrity: sha512-8Zv6jIgB0ry6tDFvpucNDA/clgIDDbsqQIPpLSuNkvyewiQDqeOaAJ0oMbTZgQf1WYQhswTBn0y97nmdj/fFQg==}
+  /@jill64/svelte-toast@1.2.1(svelte@4.2.7):
+    resolution: {integrity: sha512-GjB6QzepC3QyH7slrFsS1v7mx2YqAjmliTNSzLanPQZGMTPZaIOQDGDV2GSMrb3xoO87mtJVSalYPOcFyiAMxw==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/svelte-device-theme': 1.2.1(svelte@4.2.7)
+      '@jill64/svelte-device-theme': 1.2.2(svelte@4.2.7)
       svelte: 4.2.7
       svelte-french-toast: 1.2.0(svelte@4.2.7)
-      svelte-mq-store: 0.0.1(svelte@4.2.7)
+      svelte-mq-store: 1.0.0(svelte@4.2.7)
     dev: true
 
   /@jill64/typed-storage@1.0.1:
@@ -2741,15 +2732,6 @@ packages:
 
   /svelte-loading-spinners@0.3.4:
     resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
-    dev: true
-
-  /svelte-mq-store@0.0.1(svelte@4.2.7):
-    resolution: {integrity: sha512-HHO2tfnbohrkz1Ua46sa076CZeafldE5JWJMz550f+vrc1VGk0X/ud7HmPmi93SHig7z3NiKBOom7F1c8Aqeeg==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      esm-env: 1.0.0
-      svelte: 4.2.7
     dev: true
 
   /svelte-mq-store@1.0.0(svelte@4.2.7):
