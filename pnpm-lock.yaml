@@ -65,8 +65,8 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1(svelte@4.2.7)
   svelte-qparam:
-    specifier: 0.1.0
-    version: 0.1.0(@sveltejs/kit@1.27.6)(svelte@4.2.7)
+    specifier: 0.1.1
+    version: 0.1.1(@sveltejs/kit@1.27.6)(svelte@4.2.7)
   typescript:
     specifier: 5.3.2
     version: 5.3.2
@@ -2743,15 +2743,15 @@ packages:
       svelte: 4.2.7
     dev: true
 
-  /svelte-qparam@0.1.0(@sveltejs/kit@1.27.6)(svelte@4.2.7):
-    resolution: {integrity: sha512-s8WquEh9oXM76IHHUWaUDKnvxW+na5Ir/7fBdtyi+7w9vP7101cgOw9cUVOXBBUGsfxEWIhvKOHQq0j/dBv5wg==}
+  /svelte-qparam@0.1.1(@sveltejs/kit@1.27.6)(svelte@4.2.7):
+    resolution: {integrity: sha512-uMTXag1UpHPHl4wpDXlK37ol5y/kJISATh/Dnbqd2aoPjoDrPsMbvarBEH9hNMc401sYLpHNEFjwnqVeYjYjqA==}
     peerDependencies:
       '@sveltejs/kit': ^1.0.0
       svelte: ^4.0.0
     dependencies:
       '@sveltejs/kit': 1.27.6(svelte@4.2.7)(vite@5.0.4)
       svelte: 4.2.7
-      typed-qparam: 2.0.0
+      typed-qparam: 2.0.1
     dev: true
 
   /svelte-writable-derived@3.1.0(svelte@4.2.7):
@@ -2834,8 +2834,8 @@ packages:
       typescript: 5.3.2
     dev: true
 
-  /ts-serde@0.3.0:
-    resolution: {integrity: sha512-avgmKCJLf/O2KVAT/g0edDKMb0yngiQpLOzaxexE1A2oM+P+iOP8jeMfguhyizZDCN2v0cAgaPhhVT3ZiIX02A==}
+  /ts-serde@0.3.1:
+    resolution: {integrity: sha512-NSooF4gOGl9z36JL5bZKJfq3V59nULoVj8yw1rcH+3UdXKXqELxmrIxQze6EwULxcqc/Z6VRU+JygLql0nzeMQ==}
     dependencies:
       devalue: 4.3.2
     dev: true
@@ -2870,10 +2870,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typed-qparam@2.0.0:
-    resolution: {integrity: sha512-GZY7CCip2F2Xn+KwApkfshmXdD2CFlOLhv3s0OsUQV1lQTuXaJGVN9B6ZaSr2BbAY3UAsIPLDFAzvZe3uA7P6g==}
+  /typed-qparam@2.0.1:
+    resolution: {integrity: sha512-J8QTDLpcn+PP96NGTFHmR0dotq8Jh0SWip2ufncPieg2cRyYTO1adgF+bijdKnq2jEeKEQovmAUdsYepFd7jJg==}
     dependencies:
-      ts-serde: 0.3.0
+      ts-serde: 0.3.1
     dev: true
 
   /typescanner@0.5.3:
