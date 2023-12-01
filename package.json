@@ -51,7 +51,7 @@
     "svelte-exmarkdown": "^3.0.0"
   },
   "devDependencies": {
-    "@jill64/sentry-sveltekit-cloudflare": "1.4.1",
+    "@jill64/sentry-sveltekit-cloudflare": "1.4.2",
     "@jill64/svelte-dark-theme": "2.2.4",
     "@jill64/svelte-input": "1.5.2",
     "@jill64/svelte-toast": "1.2.1",
