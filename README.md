@@ -8,12 +8,6 @@
 
 ## [Demo](https://exmarkdown-code-utility.jill64.dev)
 
-## Installation
-
-```sh
-npm i exmarkdown-code-utility
-```
-
 <!----- END GHOST DOCS HEADER ----->
 
 This plugin adds the following utility to code section in [svelte-exmarkdown](https://github.com/ssssota/svelte-exmarkdown)
