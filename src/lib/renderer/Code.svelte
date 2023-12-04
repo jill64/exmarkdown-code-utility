@@ -4,7 +4,7 @@
   import { HighlightAuto } from 'svelte-highlight'
   import { options } from '../options.js'
 
-  $: source = $$props['data-source'] as string | undefined
+  $: source = $$props['data-source'] ?? ''
 
   $: attributes = Object.fromEntries(
     Object.entries($$props).filter(([key]) => key !== 'data-source')
@@ -13,7 +13,7 @@
   const { status, observed } = observable()
 
   $: onCopy = observed(async () => {
-    const str = (source ?? '').replace(/\n$/, '')
+    const str = source.replace(/\n$/, '')
     const promise = navigator.clipboard.writeText(str)
     $options?.onCopy?.(promise.then(() => str))
     await promise
