@@ -1,19 +1,17 @@
 <script lang="ts">
   import { page } from '$app/stores'
   import { codeUtility } from '$lib/index.js'
-  import { theme } from '@jill64/svelte-dark-theme'
-  import { TextArea } from '@jill64/svelte-input'
-  import { toast } from '@jill64/svelte-toast'
+  import { defineQparam, theme, toast } from '@jill64/svelte-suite'
+  import { TextArea } from '@jill64/svelte-suite/input'
+  import { boolean } from '@jill64/svelte-suite/serde'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import github from 'svelte-highlight/styles/github'
   import githubDark from 'svelte-highlight/styles/github-dark'
-  import { define } from 'svelte-qparam'
-  import { boolean } from 'svelte-qparam/serde'
   import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
 
-  const qparam = define({
+  const qparam = defineQparam({
     no_highlight: boolean,
     hide_copy: boolean,
     hide_filename: boolean

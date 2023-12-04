@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { flip, theme, ThemeManager } from '@jill64/svelte-dark-theme'
-  import { Toaster } from '@jill64/svelte-toast'
+  import { flip, theme, ThemeManager, Toaster } from '@jill64/svelte-suite'
   import { MoonIcon, SunIcon } from 'svelte-feather-icons'
   import GitHubLogo from './GitHubLogo.svelte'
 </script>
