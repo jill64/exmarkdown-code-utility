@@ -59,7 +59,7 @@
     "@jill64/prettier-config": "0.0.2",
     "@playwright/test": "1.40.1",
     "@sveltejs/adapter-cloudflare": "2.3.4",
-    "@sveltejs/kit": "1.27.6",
+    "@sveltejs/kit": "1.27.7",
     "svelte": "4.2.8",
     "svelte-exmarkdown": "3.0.1",
     "typescript": "5.3.2",
