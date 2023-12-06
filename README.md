@@ -117,6 +117,5 @@ or
 </svelte:head>
 ```
 
-> [!CAUTION]
-> [`@html` is dangerous](https://svelte.dev/docs/special-tags#html).  
+> [!CAUTION] > [`@html` is dangerous](https://svelte.dev/docs/special-tags#html).  
 > If you need to switch dynamic styles, use of [svelte-highlight-switcher](https://github.com/jill64/svelte-highlight-switcher#readme) is recommended to prevent unexpected accidents.
