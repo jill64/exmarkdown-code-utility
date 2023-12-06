@@ -14,7 +14,7 @@ This plugin adds the following utility to code section in [svelte-exmarkdown](ht
 
 - Code Copy Button
 - Show Filename
-- Code Highlighting
+- Code Highlighting by [svelte-highlight](https://github.com/metonym/svelte-highlight)
 
 ## Example
 
@@ -96,6 +96,9 @@ This plugin uses [svelte-highlight](https://github.com/metonym/svelte-highlight)
 
 2. Import the stylesheet
 
+> [!TIP]
+> See [svelte-highlight/styling](https://github.com/metonym/svelte-highlight?tab=readme-ov-file#styling) for details.
+
 ```svelte
 <script>
   import 'exmarkdown-code-utility/styles/github.css'
@@ -106,13 +109,13 @@ or
 
 ```svelte
 <script lang="ts">
-  import github from 'svelte-highlight/styles/github'
+  import github from 'exmarkdown-code-utility/styles/github'
 </script>
 
 <svelte:head>
-  <!-- eslint-disable-next-line svelte/no-at-html-tags -->
   {@html github}
 </svelte:head>
 ```
 
-See [svelte-highlight/styling](https://github.com/metonym/svelte-highlight?tab=readme-ov-file#styling) for details.
+> [!CAUTION] > [`@html` is dangerous](https://svelte.dev/docs/special-tags#html).
+> If you need to switch dynamic styles, use of [svelte-highlight-switcher](https://github.com/jill64/svelte-highlight-switcher#readme) is recommended to prevent unexpected accidents.
