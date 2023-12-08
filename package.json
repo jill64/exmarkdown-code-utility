@@ -64,7 +64,7 @@
     "svelte-exmarkdown": "3.0.1",
     "typescript": "5.3.3",
     "unified": "11.0.4",
-    "vite": "5.0.6"
+    "vite": "5.0.7"
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.0",
