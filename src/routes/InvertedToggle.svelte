@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { ToggleSwitch } from '@jill64/svelte-suite/input'
-  import type { Qparam } from '@jill64/svelte-suite'
+  import { ToggleSwitch } from '@jill64/svelte-input'
+  import type { Qparam } from 'svelte-qparam/types'
 
   export let param: Qparam<boolean>
   export let label: string
