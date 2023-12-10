@@ -23,8 +23,8 @@ devDependencies:
     specifier: 1.0.1
     version: 1.0.1(svelte@4.2.8)(typescript@5.3.3)
   '@jill64/npm-demo-layout':
-    specifier: 0.1.2
-    version: 0.1.2(@sveltejs/kit@1.27.7)(svelte@4.2.8)
+    specifier: 0.1.4
+    version: 0.1.4(@sveltejs/kit@1.27.7)(svelte@4.2.8)
   '@jill64/playwright-config':
     specifier: 2.2.0
     version: 2.2.0(@playwright/test@1.40.1)
@@ -598,8 +598,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@0.1.2(@sveltejs/kit@1.27.7)(svelte@4.2.8):
-    resolution: {integrity: sha512-CMz4wyv+8DjghLvuTbZb+DlqNMpWbrEN5vZhERdr9qFIaATnKVZtJLP8ZgtP2Wmf2Dv8QODlX0VuvK9wvu0xSg==}
+  /@jill64/npm-demo-layout@0.1.4(@sveltejs/kit@1.27.7)(svelte@4.2.8):
+    resolution: {integrity: sha512-GUefeTOufBlmPQ/l/+9DlG3dtbR39JpZURgdrl4Zcvn7gfzVz+HgbMqv2/MUzeg1P3uKYsASx0f5KS4FW4hJFg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
@@ -1158,6 +1158,7 @@ packages:
   /@sveltejs/kit@1.27.7(svelte@4.2.8)(vite@5.0.7):
     resolution: {integrity: sha512-AzXYDoYt42clCBwLF9GTHsXyg2DFR31Ncyt8yxu8Aw4tgB433V+w+hcr1RTfAN9zKW2J2PY9FMQ8FoX/4Vw8CA==}
     engines: {node: ^16.14 || >=18}
+    hasBin: true
     requiresBuild: true
     peerDependencies:
       svelte: ^3.54.0 || ^4.0.0-next.0 || ^5.0.0-next.0
@@ -1808,6 +1809,7 @@ packages:
 
   /eslint-config-prettier@9.1.0(eslint@8.55.0):
     resolution: {integrity: sha512-NSWl5BFQWEPi1j4TjVNItzYV7dZXZ+wP6I6ZhrBGpChQhZRUaElihE9uRRkcbRnNb76UMKDF3r+WTmNcGPKsqw==}
+    hasBin: true
     peerDependencies:
       eslint: '>=7.0.0'
     dependencies:
@@ -3649,6 +3651,7 @@ packages:
   /vite@5.0.7:
     resolution: {integrity: sha512-B4T4rJCDPihrQo2B+h1MbeGL/k/GMAHzhQ8S0LjQ142s6/+l3hHTT095ORvsshj4QCkoWu3Xtmob5mazvakaOw==}
     engines: {node: ^18.0.0 || >=20.0.0}
+    hasBin: true
     peerDependencies:
       '@types/node': ^18.0.0 || >=20.0.0
       less: '*'
