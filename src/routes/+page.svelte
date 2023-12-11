@@ -50,6 +50,7 @@
             hideCopyButton: $hide_copy,
             hideFilename: $hide_filename,
             codeCopy: {
+              color: 'inherit',
               onCopy: (promise) =>
                 $toast.promise(promise, {
                   loading: 'Copying...',
