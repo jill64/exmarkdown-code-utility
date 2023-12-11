@@ -1,31 +1,19 @@
 <script lang="ts">
   import { page } from '$app/stores'
-  import { codeUtility } from '$lib/index.js'
-  import { theme, toast } from '@jill64/npm-demo-layout'
+  import { codeUtility } from '$lib'
+  import { toast } from '@jill64/npm-demo-layout'
   import { TextArea } from '@jill64/svelte-input'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
-  import { HighlightSwitcher } from 'svelte-highlight-switcher'
-  import { define } from 'svelte-qparam'
-  import { boolean } from 'svelte-qparam/serde'
   import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
-
-  const qparam = define({
-    no_highlight: boolean,
-    hide_copy: boolean,
-    hide_filename: boolean
-  })
+  import { qparam } from './qparam'
 
   $: ({ qparams } = qparam($page.url))
   $: ({ no_highlight, hide_copy, hide_filename } = qparams)
 
   let md = mock
 </script>
-
-{#if !$no_highlight}
-  <HighlightSwitcher name={$theme === 'dark' ? 'githubDark' : 'github'} />
-{/if}
 
 <main>
   <TextArea

@@ -57,7 +57,8 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.0.1",
-    "@jill64/npm-demo-layout": "0.1.9",
+    "@jill64/npm-demo-layout": "0.2.3",
+    "@jill64/universal-sanitizer": "1.0.0",
     "@jill64/playwright-config": "2.2.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.5.0",
@@ -67,7 +68,6 @@
     "@sveltejs/kit": "1.28.0",
     "svelte": "4.2.8",
     "svelte-exmarkdown": "3.0.1",
-    "svelte-highlight-switcher": "1.0.0",
     "svelte-qparam": "0.2.1",
     "typescript": "5.3.3",
     "unified": "11.0.4",
