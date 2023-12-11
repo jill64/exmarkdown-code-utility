@@ -14,9 +14,7 @@
   "bugs": "https://github.com/jill64/exmarkdown-code-utility/issues",
   "homepage": "https://github.com/jill64/exmarkdown-code-utility#readme",
   "files": [
-    "dist",
-    "!*.test.*",
-    "!*.spec.*"
+    "dist"
   ],
   "exports": {
     "./styles": {
