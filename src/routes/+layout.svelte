@@ -3,6 +3,6 @@
   import packageJson from '../../package.json'
 </script>
 
-<Layout {packageJson}>
+<Layout disableThemeSwitcher {packageJson}>
   <slot />
 </Layout>

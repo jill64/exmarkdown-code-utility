@@ -16,6 +16,12 @@ This plugin adds the following utility to code section in [svelte-exmarkdown](ht
 - Show Filename
 - Code Highlighting by [svelte-highlight](https://github.com/metonym/svelte-highlight)
 
+## Installation
+
+```bash
+npm i exmarkdown-code-utility
+```
+
 ## Example
 
 ```svelte
@@ -36,9 +42,6 @@ This plugin adds the following utility to code section in [svelte-exmarkdown](ht
 <style>
   .exmarkdown-code-filename {
     /* Style of Filename section (<div/>) */
-  }
-  .exmarkdown-code-copy {
-    /* Style of Copy Button (<button/>) */
   }
 </style>
 ```
@@ -119,3 +122,11 @@ or
 
 > [!CAUTION] > [`@html` is dangerous](https://svelte.dev/docs/special-tags#html).  
 > If you need to switch dynamic styles, use of [svelte-highlight-switcher](https://github.com/jill64/svelte-highlight-switcher#readme) is recommended to prevent unexpected accidents.
+
+## Migration from v2
+
+Now internal using to [svelte-code-copy](https://github.com/jill64/svelte-code-copy#readme) for code copy button.
+
+- `onCopy` option has been merged into `codeCopy`.
+- `codeButton` option has been merged into `copy`.
+- Omit styling by `exmarkdown-code-copy`. Use instead `codeCopy` option.

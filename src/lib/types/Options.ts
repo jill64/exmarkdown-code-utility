@@ -1,12 +1,7 @@
-export type Options = {
-  /**
-   * The argument is a Promise that will be resolved when the copy is complete.
-   * The Promise contains the copied text.
-   * Executes when the copy button is clicked.
-   * @default undefined
-   */
-  onCopy?: (promise: Promise<string>) => unknown
+import type { SvelteComponent } from 'svelte'
+import type { CodeCopy } from 'svelte-code-copy'
 
+export type Options = {
   /**
    * Hide filename from the code block.
    * @default false
@@ -33,25 +28,10 @@ export type Options = {
    */
   filenameTag?: 'p' | 'span' | 'div' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 
-  copyButton?: {
-    /**
-     * Copy button icon size. (px)
-     * @default 116
-     */
-    iconSize?: number
-
-    /**
-     * Copy button icon color.
-     */
-    iconColor?: {
-      /** @default inherit */
-      default?: string
-
-      /** @default green */
-      success?: string
-
-      /** @default red */
-      error?: string
-    }
-  }
+  /**
+   * Options of `svelte-code-copy`.
+   * @default 'button'
+   * @see https://github.com/jill64/svelte-code-copy#readme
+   */
+  codeCopy?: CodeCopy extends SvelteComponent<infer U> ? U : never
 }

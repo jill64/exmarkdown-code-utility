@@ -2,13 +2,12 @@
   import { page } from '$app/stores'
   import { codeUtility } from '$lib/index.js'
   import { theme, toast } from '@jill64/npm-demo-layout'
-  import { define } from 'svelte-qparam'
   import { TextArea } from '@jill64/svelte-input'
-  import { boolean } from 'svelte-qparam/serde'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
-  import github from 'svelte-highlight/styles/github'
-  import githubDark from 'svelte-highlight/styles/github-dark'
+  import { HighlightSwitcher } from 'svelte-highlight-switcher'
+  import { define } from 'svelte-qparam'
+  import { boolean } from 'svelte-qparam/serde'
   import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
 
@@ -24,12 +23,9 @@
   let md = mock
 </script>
 
-<svelte:head>
-  {#if !$no_highlight}
-    <!-- eslint-disable-next-line svelte/no-at-html-tags -->
-    {@html $theme === 'dark' ? githubDark : github}
-  {/if}
-</svelte:head>
+{#if !$no_highlight}
+  <HighlightSwitcher name={$theme === 'dark' ? 'githubDark' : 'github'} />
+{/if}
 
 <main>
   <TextArea
@@ -53,12 +49,15 @@
             highlight: !$no_highlight,
             hideCopyButton: $hide_copy,
             hideFilename: $hide_filename,
-            onCopy: (promise) =>
-              $toast.promise(promise, {
-                loading: 'Copying...',
-                success: 'Copied!',
-                error: 'Failed to copy'
-              })
+            codeCopy: {
+              color: 'inherit',
+              onCopy: (promise) =>
+                $toast.promise(promise, {
+                  loading: 'Copying...',
+                  success: 'Copied!',
+                  error: 'Failed to copy'
+                })
+            }
           })
         ]}
       />
@@ -94,25 +93,5 @@
     font-size: large;
     font-weight: bold;
     text-decoration: underline;
-  }
-  :global(.exmarkdown-code-copy) {
-    cursor: pointer;
-    margin-left: 0.5rem;
-    background: inherit;
-    color: inherit;
-    border-radius: 0.5rem;
-    border: none;
-  }
-  :global(.exmarkdown-code-copy):hover {
-    background: rgba(0, 0, 0, 0.1);
-  }
-  :global(.exmarkdown-code-copy):active {
-    background: rgba(0, 0, 0, 0.2);
-  }
-  :global(.dark .exmarkdown-code-copy):hover {
-    background: rgba(255, 255, 255, 0.1);
-  }
-  :global(.dark .exmarkdown-code-copy):active {
-    background: rgba(255, 255, 255, 0.2);
   }
 </style>
