@@ -75,7 +75,7 @@
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.0",
-    "svelte-code-copy": "0.1.0",
+    "svelte-code-copy": "0.1.2",
     "svelte-feather-icons": "4.0.1",
     "svelte-highlight": "7.4.2",
     "unist-util-visit": "5.0.0"
