@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   svelte-code-copy:
-    specifier: 0.0.2
-    version: 0.0.2(svelte@4.2.8)
+    specifier: 0.1.0
+    version: 0.1.0(svelte@4.2.8)
   svelte-feather-icons:
     specifier: 4.0.1
     version: 4.0.1
@@ -3469,6 +3469,17 @@ packages:
       '@jill64/async-observer': 1.2.0
       svelte: 4.2.8
       svelte-feather-icons: 4.0.1
+    dev: true
+
+  /svelte-code-copy@0.1.0(svelte@4.2.8):
+    resolution: {integrity: sha512-GiH1y5TRQK20UZ893LCQEkphnsQBWk+70mptrKMGJUp0D6yGGMaBJgv3HmSaSWUiPwoc/dcJykbfn82pByUomw==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.2.0
+      svelte: 4.2.8
+      svelte-feather-icons: 4.0.1
+    dev: false
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.8):
     resolution: {integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==}
