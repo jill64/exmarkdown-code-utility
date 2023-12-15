@@ -62,8 +62,8 @@ devDependencies:
     specifier: 3.0.1
     version: 3.0.1(svelte@4.2.8)
   svelte-qparam:
-    specifier: 0.4.0
-    version: 0.4.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    specifier: 1.0.0
+    version: 1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   typescript:
     specifier: 5.3.3
     version: 5.3.3
@@ -3283,8 +3283,8 @@ packages:
       svelte: 4.2.8
     dev: true
 
-  /svelte-qparam@0.4.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
-    resolution: {integrity: sha512-sQuPc9GmgQOActQB3La83P4Th/et531l/EXA95lSNXOvGSIU9Q/8BrLCWl0QOXn3bwwgjHl+/dEwFS4RGvwtrA==}
+  /svelte-qparam@1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-c0paHfO/TZC4E9q/E3FgqGoPvw7WQdimAlshiYdJdjnhduJs/S0a85kgFMY3+2e3w+C19V+dvWRFk/Wu0Cfksw==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
