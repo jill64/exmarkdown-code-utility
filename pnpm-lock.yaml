@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   svelte-code-copy:
-    specifier: 0.1.2
-    version: 0.1.2(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    specifier: 0.2.0
+    version: 0.2.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   svelte-feather-icons:
     specifier: 4.0.1
     version: 4.0.1
@@ -695,15 +695,6 @@ packages:
       '@sentry/utils': 7.88.0
     dev: true
 
-  /@sentry-internal/tracing@7.87.0:
-    resolution: {integrity: sha512-HYa0+rfFmYQ/DadXoiuarTSxrcnYDCd/fm0pFuOHjICtfja8IcLegVYP2/r3CgwB+IjquCtJ5kDcqS/NTgUcpA==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/core': 7.87.0
-      '@sentry/types': 7.87.0
-      '@sentry/utils': 7.87.0
-    dev: true
-
   /@sentry-internal/tracing@7.88.0:
     resolution: {integrity: sha512-xXQdcYhsS+ourzJHjXNjZC9zakuc97udmpgaXRjEP7FjPYclIx+YXwgFBdHM2kzAwZLFOsEce5dr46GVXUDfZw==}
     engines: {node: '>=8'}
@@ -731,7 +722,7 @@ packages:
     dependencies:
       '@sentry/cli': 2.23.0
       '@sentry/node': 7.88.0
-      '@sentry/tracing': 7.87.0
+      '@sentry/tracing': 7.88.0
       find-up: 5.0.0
       glob: 9.3.2
       magic-string: 0.27.0
@@ -835,14 +826,6 @@ packages:
       '@sentry/utils': 7.76.0
     dev: true
 
-  /@sentry/core@7.87.0:
-    resolution: {integrity: sha512-jkoXqK/nuYh8DYS+n7uaSuSIdw4HJemyRkXsWjAEPtEgD7taGMafZGbP5pl+XE38SE59jTBxmKnkUEZOFMgZGA==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.87.0
-      '@sentry/utils': 7.87.0
-    dev: true
-
   /@sentry/core@7.88.0:
     resolution: {integrity: sha512-Jzbb7dcwiCO7kI0a1w+32UzWxbEn2OcZWzp55QMEeAh6nZ/5CXhXwpuHi0tW7doPj+cJdmxMTMu9LqMVfdGkzQ==}
     engines: {node: '>=8'}
@@ -930,20 +913,15 @@ packages:
       - svelte
     dev: true
 
-  /@sentry/tracing@7.87.0:
-    resolution: {integrity: sha512-oEj4wo5K9WSyYgMInM/DA5DToS0F/dz2PNe5dkhIdEkMGTarSvLm7DIo3L44NfYUtj4DrKyMM61vXHNIeQitVg==}
+  /@sentry/tracing@7.88.0:
+    resolution: {integrity: sha512-Lj4hhLraalN4w3swXkP2do1hcaQVOuLvO6eJJbcwf10b+P4CcdlwAnqvxOOCNxA5VzG4/K2BqQ8LRU4S0Ulj9A==}
     engines: {node: '>=8'}
     dependencies:
-      '@sentry-internal/tracing': 7.87.0
+      '@sentry-internal/tracing': 7.88.0
     dev: true
 
   /@sentry/types@7.76.0:
     resolution: {integrity: sha512-vj6z+EAbVrKAXmJPxSv/clpwS9QjPqzkraMFk2hIdE/kii8s8kwnkBwTSpIrNc8GnzV3qYC4r3qD+BXDxAGPaw==}
-    engines: {node: '>=8'}
-    dev: true
-
-  /@sentry/types@7.87.0:
-    resolution: {integrity: sha512-w8jKFHq/Llupmr2FezmFgQsnm3y/CnqLjb7s6PstI78E409wrhH7p7oqX/OEuzccH1qNCNwes/3QKvPTRQDB4Q==}
     engines: {node: '>=8'}
     dev: true
 
@@ -957,13 +935,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@sentry/types': 7.76.0
-    dev: true
-
-  /@sentry/utils@7.87.0:
-    resolution: {integrity: sha512-7xgtPTnTNP/4IznFMFXxltuaXfLvzznrYCDMv9ny8EeUjJqlLX3CVA8Qq3YALsLCQCKcrGRARbAcd/EGG//w2w==}
-    engines: {node: '>=8'}
-    dependencies:
-      '@sentry/types': 7.87.0
     dev: true
 
   /@sentry/utils@7.88.0:
@@ -3191,6 +3162,20 @@ packages:
       svelte-hydrated: 0.0.1(@sveltejs/kit@2.0.0)(svelte@4.2.8)
     transitivePeerDependencies:
       - '@sveltejs/kit'
+    dev: true
+
+  /svelte-code-copy@0.2.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-ki2T3JdWy8G4ZSuBtYCJgEkt4MBSmAwFj/+oQxecDAad5TSxw88OQtiK4RgASPkzW90R7APHD1Iuj0QuKUYLeA==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.2.0
+      svelte: 4.2.8
+      svelte-feather-icons: 4.0.1
+      svelte-hydrated: 0.1.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    transitivePeerDependencies:
+      - '@sveltejs/kit'
+    dev: false
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.8):
     resolution: {integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==}
@@ -3268,6 +3253,17 @@ packages:
     dependencies:
       '@sveltejs/kit': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.9)
       svelte: 4.2.8
+    dev: true
+
+  /svelte-hydrated@0.1.0(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-FKVw2fxIgy0eBClSUPvmeJzmjozLRu5FhzKO5fmthMk3fTvrJaiMdlB631PFHDkIsGhuzD6J4HMXw8+4iPzkUQ==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.0.0
+      svelte: ^4.0.0
+    dependencies:
+      '@sveltejs/kit': 2.0.0(@sveltejs/vite-plugin-svelte@3.0.1)(svelte@4.2.8)(vite@5.0.9)
+      svelte: 4.2.8
+    dev: false
 
   /svelte-loading-spinners@0.3.4:
     resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
