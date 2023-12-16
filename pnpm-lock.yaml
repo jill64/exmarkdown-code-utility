@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.0.2
     version: 1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   svelte-feather-icons:
-    specifier: 4.0.1
-    version: 4.0.1
+    specifier: 4.1.0
+    version: 4.1.0
   svelte-highlight:
     specifier: 7.4.2
     version: 7.4.2
@@ -3216,6 +3216,7 @@ packages:
     resolution: {integrity: sha512-DMDrlbblaRUHLcTFtKHE4GWQ/Fk/kneGIZrrI75EmTxCu1hgHe8uq8e80ONrmdjL/i3f1d8fkcx73SWng2X6Gg==}
     dependencies:
       svelte: 3.59.2
+    dev: true
 
   /svelte-feather-icons@4.1.0:
     resolution: {integrity: sha512-fcTL4VzEN4BoccQJjKiui0b9DWEsmO6zGpI0tQTJbthRtNrYheoU487zyA1BD8rj9kj6jbKGmGVo7zbSdRvMvA==}
