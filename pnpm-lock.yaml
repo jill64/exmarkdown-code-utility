@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.0
     version: 1.2.0
   svelte-code-copy:
-    specifier: 1.0.1
-    version: 1.0.1(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    specifier: 1.0.2
+    version: 1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8)
   svelte-feather-icons:
     specifier: 4.0.1
     version: 4.0.1
@@ -3166,6 +3166,20 @@ packages:
       svelte-hydrated: 1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
     transitivePeerDependencies:
       - '@sveltejs/kit'
+    dev: true
+
+  /svelte-code-copy@1.0.2(@sveltejs/kit@2.0.0)(svelte@4.2.8):
+    resolution: {integrity: sha512-Kuc/psmNV/otFCDr+D7iuBaMs8NI9VwwAXfp+LCrsgY/1ieAdbyZS15j1VslgAkgEpYPG334rviHb14DPJsGfg==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.2.0
+      svelte: 4.2.8
+      svelte-feather-icons: 4.1.0
+      svelte-hydrated: 1.0.0(@sveltejs/kit@2.0.0)(svelte@4.2.8)
+    transitivePeerDependencies:
+      - '@sveltejs/kit'
+    dev: false
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.8):
     resolution: {integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==}
@@ -3202,6 +3216,12 @@ packages:
     resolution: {integrity: sha512-DMDrlbblaRUHLcTFtKHE4GWQ/Fk/kneGIZrrI75EmTxCu1hgHe8uq8e80ONrmdjL/i3f1d8fkcx73SWng2X6Gg==}
     dependencies:
       svelte: 3.59.2
+
+  /svelte-feather-icons@4.1.0:
+    resolution: {integrity: sha512-fcTL4VzEN4BoccQJjKiui0b9DWEsmO6zGpI0tQTJbthRtNrYheoU487zyA1BD8rj9kj6jbKGmGVo7zbSdRvMvA==}
+    dependencies:
+      svelte: 3.59.2
+    dev: false
 
   /svelte-french-toast@1.2.0(svelte@4.2.8):
     resolution: {integrity: sha512-5PW+6RFX3xQPbR44CngYAP1Sd9oCq9P2FOox4FZffzJuZI2mHOB7q5gJBVnOiLF5y3moVGZ7u2bYt7+yPAgcEQ==}
