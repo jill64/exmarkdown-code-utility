@@ -130,3 +130,11 @@ Now internal using to [svelte-code-copy](https://github.com/jill64/svelte-code-c
 - `onCopy` option has been merged into `codeCopy`.
 - `codeButton` option has been merged into `copy`.
 - Omit styling by `exmarkdown-code-copy`. Use instead `codeCopy` option.
+
+<!----- BEGIN GHOST DOCS FOOTER ----->
+
+## License
+
+MIT
+
+<!----- END GHOST DOCS FOOTER ----->
