@@ -1,1 +1,1 @@
-export * from 'svelte-highlight/styles'
+export * from 'svelte-highlight/styles/index'

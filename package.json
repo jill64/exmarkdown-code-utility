@@ -1,13 +1,13 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "3.1.6",
+  "version": "3.1.7",
   "type": "module",
   "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
   "license": "MIT",
   "author": {
     "name": "jill64",
-    "email": "143883742+jill64@users.noreply.github.com",
+    "email": "intents.turrets0h@icloud.com",
     "url": "https://github.com/jill64",
     "image": "https://avatars.githubusercontent.com/u/143883742?v=4"
   },
@@ -77,7 +77,7 @@
   "dependencies": {
     "@jill64/async-observer": "1.2.0",
     "svelte-code-copy": "1.0.3",
-    "svelte-highlight": "7.4.2",
+    "svelte-highlight": "7.4.6",
     "unist-util-visit": "5.0.0"
   }
 }
