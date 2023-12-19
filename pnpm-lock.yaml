@@ -12,8 +12,8 @@ dependencies:
     specifier: 1.0.3
     version: 1.0.3(@sveltejs/kit@2.0.3)(svelte@4.2.8)
   svelte-highlight:
-    specifier: 7.4.2
-    version: 7.4.2
+    specifier: 7.4.6
+    version: 7.4.6
   unist-util-visit:
     specifier: 5.0.0
     version: 5.0.0
@@ -3219,17 +3219,10 @@ packages:
       svelte-highlight: 7.4.6
     dev: true
 
-  /svelte-highlight@7.4.2:
-    resolution: {integrity: sha512-J0AGYK1bJCc5t4P8bT7NuCc0224XurJKF57YUJPxj8sqbfAYICyom5+spF2fyPHGKgZtkX8jNQLGwHgPzfCapA==}
-    dependencies:
-      highlight.js: 11.9.0
-    dev: false
-
   /svelte-highlight@7.4.6:
     resolution: {integrity: sha512-kgGC8I9Rc4JoCPAzdDM3YPWzOlZXqhEYz4Ncqjxq8JraI14oivuEzFNPEz63J848k02V5kA7IC2IkDNj98Z44w==}
     dependencies:
       highlight.js: 11.9.0
-    dev: true
 
   /svelte-hmr@0.15.3(svelte@4.2.8):
     resolution: {integrity: sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==}
