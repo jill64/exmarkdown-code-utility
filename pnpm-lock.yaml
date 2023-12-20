@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@jill64/async-observer':
-    specifier: 1.2.0
-    version: 1.2.0
+    specifier: 1.2.2
+    version: 1.2.2
   svelte-code-copy:
     specifier: 1.0.4
     version: 1.0.4(@sveltejs/kit@2.0.4)(svelte@4.2.8)
@@ -324,6 +324,7 @@ packages:
 
   /@jill64/async-observer@1.2.0:
     resolution: {integrity: sha512-qXM9YZMZPO8mQ3bMyAtHjlxyH9Q74tCbEinZVDzYgpGwKLNEFF/1099bPLBCBfUkOgOiwwB5H7/o8EvpTg+Lbg==}
+    dev: true
 
   /@jill64/async-observer@1.2.2:
     resolution: {integrity: sha512-MYd+S/xS1ZFjX6koiJPrmuS/vHR6JkUn78nUaHDTwzW+u9cGN2MAOQJigUndMZyCoMoLyVUgilMU6YE6S26xIQ==}
