@@ -56,8 +56,8 @@ devDependencies:
     specifier: 4.2.8
     version: 4.2.8
   svelte-exmarkdown:
-    specifier: 3.0.1
-    version: 3.0.1(svelte@4.2.8)
+    specifier: 3.0.2
+    version: 3.0.2(svelte@4.2.8)
   svelte-qparam:
     specifier: 1.0.4
     version: 1.0.4(@sveltejs/kit@2.0.6)(svelte@4.2.8)
@@ -2663,8 +2663,8 @@ packages:
       svelte: 4.2.8
     dev: true
 
-  /svelte-exmarkdown@3.0.1(svelte@4.2.8):
-    resolution: {integrity: sha512-bitRec/CnymGtNFp4zABF8fFoHpHrfy8tNckY2DepDAagFYNbZn9CJmfRsBKNVRL8QVE5DLA8N76UGPcoqmPtA==}
+  /svelte-exmarkdown@3.0.2(svelte@4.2.8):
+    resolution: {integrity: sha512-BVw0qn9QyBjIbTEVtbeZFhuZgC1akNbgMRMa4R4Fsm6r/Vnl/L7/eftPHrie6hNDc0wlmFL2ra/Ao/eDjBwIuA==}
     peerDependencies:
       svelte: ^3.47.0 || ^4.0.0
     dependencies:
