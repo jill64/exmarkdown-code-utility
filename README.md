@@ -2,11 +2,11 @@
 
 # exmarkdown-code-utility
 
-
 <!----- BEGIN GHOST DOCS BADGES ----->
-<a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/v/exmarkdown-code-utility" alt="npm-version" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/l/exmarkdown-code-utility" alt="npm-license" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/dm/exmarkdown-code-utility" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/bundlephobia/min/exmarkdown-code-utility" alt="npm-min-size" /></a> <a href="https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml"><img src="https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a> <a href="https://exmarkdown-code-utility.jill64.dev"><img src="https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fexmarkdown-code-utility.jill64.dev" alt="website" /></a>
-<!----- END GHOST DOCS BADGES ----->
 
+<a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/v/exmarkdown-code-utility" alt="npm-version" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/l/exmarkdown-code-utility" alt="npm-license" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/npm/dm/exmarkdown-code-utility" alt="npm-download-month" /></a> <a href="https://npmjs.com/package/exmarkdown-code-utility"><img src="https://img.shields.io/bundlephobia/min/exmarkdown-code-utility" alt="npm-min-size" /></a> <a href="https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml"><img src="https://github.com/jill64/exmarkdown-code-utility/actions/workflows/ci.yml/badge.svg" alt="ci.yml" /></a> <a href="https://exmarkdown-code-utility.jill64.dev"><img src="https://img.shields.io/website?up_message=working&down_message=down&url=https%3A%2F%2Fexmarkdown-code-utility.jill64.dev" alt="website" /></a>
+
+<!----- END GHOST DOCS BADGES ----->
 
 ❏ Code utility plugin for svelte-exmarkdown
 
