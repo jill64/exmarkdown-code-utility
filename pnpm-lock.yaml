@@ -35,8 +35,8 @@ devDependencies:
     specifier: 1.7.4
     version: 1.7.4(@sveltejs/kit@2.5.0)(svelte@4.2.9)
   '@jill64/svelte-input':
-    specifier: 1.6.10
-    version: 1.6.10(svelte@4.2.9)
+    specifier: 1.6.11
+    version: 1.6.11(svelte@4.2.9)
   '@jill64/universal-sanitizer':
     specifier: 1.1.0
     version: 1.1.0
@@ -435,8 +435,8 @@ packages:
       svelte: 4.2.9
     dev: true
 
-  /@jill64/svelte-input@1.6.10(svelte@4.2.9):
-    resolution: {integrity: sha512-B6yRoWY/r4FOfNSxYAHdMN1vKc8AgSomIkazuWdA9teClWpfp3dUDD2vYd5QRj28Ko87P0Pg6hkgmWeJXRknyg==}
+  /@jill64/svelte-input@1.6.11(svelte@4.2.9):
+    resolution: {integrity: sha512-1gLn33i1dRYikGAeJcVgJp/oMRpYSuXpU3Bfe8kYwV5GisM3iOS0qNPMEXJb6oLICyriJ5qvtuc+KMToKywsBg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
