@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.3
     version: 1.2.3
   svelte-code-copy:
-    specifier: 1.0.13
-    version: 1.0.13(@sveltejs/kit@2.5.0)(svelte@4.2.11)
+    specifier: 1.0.14
+    version: 1.0.14(@sveltejs/kit@2.5.0)(svelte@4.2.11)
   svelte-highlight:
     specifier: 7.6.0
     version: 7.6.0
@@ -2656,19 +2656,6 @@ packages:
       ts-serde: 1.0.3
     dev: true
 
-  /svelte-code-copy@1.0.13(@sveltejs/kit@2.5.0)(svelte@4.2.11):
-    resolution: {integrity: sha512-XuhBOMHTYBWx4w8vyGXpxcvVAShbvUeghxXwld8JT3nExxkt2397cLc4De6IoHwQWR5CL21IIZgY2v0IHFfhqw==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      '@jill64/async-observer': 1.2.3
-      svelte: 4.2.11
-      svelte-feather-icons: 4.1.0
-      svelte-hydrated: 1.0.7(@sveltejs/kit@2.5.0)(svelte@4.2.11)
-    transitivePeerDependencies:
-      - '@sveltejs/kit'
-    dev: false
-
   /svelte-code-copy@1.0.14(@sveltejs/kit@2.5.0)(svelte@4.2.11):
     resolution: {integrity: sha512-4meplN8vTv8qK37qRXRJr7g9+io+QkihI+trxvzCmmKqagyr4UUWgNXcOAhmjgYeFAeM4oDUtS8bjKm22IT5sg==}
     peerDependencies:
@@ -2680,7 +2667,6 @@ packages:
       svelte-hydrated: 1.0.8(@sveltejs/kit@2.5.0)(svelte@4.2.11)
     transitivePeerDependencies:
       - '@sveltejs/kit'
-    dev: true
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.11):
     resolution: {integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==}
@@ -2750,16 +2736,6 @@ packages:
     dependencies:
       svelte: 4.2.11
 
-  /svelte-hydrated@1.0.7(@sveltejs/kit@2.5.0)(svelte@4.2.11):
-    resolution: {integrity: sha512-HroWRwEbyiMToRAQTOMTow91c+AXdxwZMbVmwaGysr37CMnqRDdFBB+wjIlIJXIw8SZZpVpo/BOYCyWIp2/EQA==}
-    peerDependencies:
-      '@sveltejs/kit': ^2.0.0
-      svelte: ^4.0.0
-    dependencies:
-      '@sveltejs/kit': 2.5.0(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.11)(vite@5.1.3)
-      svelte: 4.2.11
-    dev: false
-
   /svelte-hydrated@1.0.8(@sveltejs/kit@2.5.0)(svelte@4.2.11):
     resolution: {integrity: sha512-FdEz+cOr3BIITUEpsDEtMt59cGRBYV0b0tAOr3c4jTEBnOJtiGrh5qU/lskR458hrzjf4MUdHXY2CO/6AEyIYw==}
     peerDependencies:
@@ -2768,7 +2744,6 @@ packages:
     dependencies:
       '@sveltejs/kit': 2.5.0(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.11)(vite@5.1.3)
       svelte: 4.2.11
-    dev: true
 
   /svelte-loading-spinners@0.3.4:
     resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
