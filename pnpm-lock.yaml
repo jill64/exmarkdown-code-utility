@@ -38,8 +38,8 @@ devDependencies:
     specifier: 1.6.21
     version: 1.6.21(svelte@4.2.12)
   '@jill64/universal-sanitizer':
-    specifier: 1.2.3
-    version: 1.2.3
+    specifier: 1.2.7
+    version: 1.2.7
   '@playwright/test':
     specifier: 1.41.2
     version: 1.41.2
@@ -512,15 +512,6 @@ packages:
     resolution: {integrity: sha512-1RLJ1H4Cn2Acjum8Fc0a9qgJhMqGtakpYYShWEF3LdUEo2dxgtoFEF6Tbwm4aRGASuV6KUMZlSdUZg3WEQ900Q==}
     dependencies:
       ts-serde: 1.0.3
-    dev: true
-
-  /@jill64/universal-sanitizer@1.2.3:
-    resolution: {integrity: sha512-qpIIQVOt5MDhSJPe8emzZXtqKs6XzrJWpqEkMlQWIsMfZt3MJAMTyEF7n8Z8CCEjzw8Oz1yrSilGCHmzk9jirg==}
-    dependencies:
-      '@types/dompurify': 3.0.5
-      '@types/sanitize-html': 2.11.0
-      dompurify: 3.0.9
-      sanitize-html: 2.12.1
     dev: true
 
   /@jill64/universal-sanitizer@1.2.7:
@@ -1355,10 +1346,6 @@ packages:
 
   /dompurify@3.0.11:
     resolution: {integrity: sha512-Fan4uMuyB26gFV3ovPoEoQbxRRPfTu3CvImyZnhGq5fsIEO+gEFLp45ISFt+kQBWsK5ulDdT0oV28jS1UrwQLg==}
-    dev: true
-
-  /dompurify@3.0.9:
-    resolution: {integrity: sha512-uyb4NDIvQ3hRn6NiC+SIFaP4mJ/MdXlvtunaqK9Bn6dD3RuB/1S/gasEjDHD8eiaqdSael2vBv+hOs7Y+jhYOQ==}
     dev: true
 
   /domutils@3.1.0:
@@ -2592,17 +2579,6 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mri: 1.2.0
-
-  /sanitize-html@2.12.1:
-    resolution: {integrity: sha512-Plh+JAn0UVDpBRP/xEjsk+xDCoOvMBwQUf/K+/cBAVuTbtX8bj2VB7S1sL1dssVpykqp0/KPSesHrqXtokVBpA==}
-    dependencies:
-      deepmerge: 4.3.1
-      escape-string-regexp: 4.0.0
-      htmlparser2: 8.0.2
-      is-plain-object: 5.0.0
-      parse-srcset: 1.0.2
-      postcss: 8.4.35
-    dev: true
 
   /sanitize-html@2.13.0:
     resolution: {integrity: sha512-Xff91Z+4Mz5QiNSLdLWwjgBDm5b1RU6xBT0+12rapjiaR7SwfRdjw8f+6Rir2MXKLrDicRFHdb51hGOAxmsUIA==}
