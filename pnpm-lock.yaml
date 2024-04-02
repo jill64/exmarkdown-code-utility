@@ -9,8 +9,8 @@ dependencies:
     specifier: 1.2.3
     version: 1.2.3
   svelte-code-copy:
-    specifier: 1.0.16
-    version: 1.0.16(@sveltejs/kit@2.5.5)(svelte@4.2.12)
+    specifier: 1.0.19
+    version: 1.0.19(@sveltejs/kit@2.5.5)(svelte@4.2.12)
   svelte-highlight:
     specifier: 7.6.0
     version: 7.6.0
@@ -2664,19 +2664,6 @@ packages:
       ts-serde: 1.0.3
     dev: true
 
-  /svelte-code-copy@1.0.16(@sveltejs/kit@2.5.5)(svelte@4.2.12):
-    resolution: {integrity: sha512-8VkhtMoK8+iPaWw4vK5v1sABy762bLehpCzSMbl/YeTRdw2qYLU/5RFvLux8jaCrduDbm8GKP18h3DQTx2Es7g==}
-    peerDependencies:
-      svelte: ^4.0.0
-    dependencies:
-      '@jill64/async-observer': 1.2.3
-      svelte: 4.2.12
-      svelte-feather-icons: 4.1.0
-      svelte-hydrated: 1.0.9(@sveltejs/kit@2.5.5)(svelte@4.2.12)
-    transitivePeerDependencies:
-      - '@sveltejs/kit'
-    dev: false
-
   /svelte-code-copy@1.0.19(@sveltejs/kit@2.5.5)(svelte@4.2.12):
     resolution: {integrity: sha512-8WL/QmtEYtn34V+/SXK6Z1YGoVcjyNMmUrrddQFV2zf5LYy0i1WcqUny4/f6xR+Yt2DWG9j2YytAfdV3JdQgww==}
     peerDependencies:
@@ -2688,7 +2675,6 @@ packages:
       svelte-hydrated: 1.0.12(@sveltejs/kit@2.5.5)(svelte@4.2.12)
     transitivePeerDependencies:
       - '@sveltejs/kit'
-    dev: true
 
   /svelte-eslint-parser@0.33.1(svelte@4.2.12):
     resolution: {integrity: sha512-vo7xPGTlKBGdLH8T5L64FipvTrqv3OQRx9d2z5X05KKZDlF4rQk8KViZO4flKERY+5BiVdOh7zZ7JGJWo5P0uA==}
@@ -2766,17 +2752,6 @@ packages:
     dependencies:
       '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.1.4)
       svelte: 4.2.12
-    dev: true
-
-  /svelte-hydrated@1.0.9(@sveltejs/kit@2.5.5)(svelte@4.2.12):
-    resolution: {integrity: sha512-4EDj/AIr4I4CPE7qEffxV1Tr++Hbx5duYB5oRnSND5Q9GQXS3T+g5JbWv1WxwZ0Dup+ib+63lIhAe0QMJC4Mbg==}
-    peerDependencies:
-      '@sveltejs/kit': ^2.0.0
-      svelte: ^4.0.0
-    dependencies:
-      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.1.4)
-      svelte: 4.2.12
-    dev: false
 
   /svelte-mq-store@2.2.11(@sveltejs/kit@2.5.5)(svelte@4.2.12):
     resolution: {integrity: sha512-FpCh5FMI3Q5xpxsaXQrjL56ENBsYDj/tjGEklw3tgl+TFgClUJUxTPXi360JyNZlsvEH/8iQ8LECH34VH4GvvQ==}
