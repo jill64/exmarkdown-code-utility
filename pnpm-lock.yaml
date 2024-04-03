@@ -35,8 +35,8 @@ devDependencies:
     specifier: 1.7.9
     version: 1.7.9(@sveltejs/kit@2.5.5)(svelte@4.2.12)
   '@jill64/svelte-input':
-    specifier: 1.6.22
-    version: 1.6.22(svelte@4.2.12)
+    specifier: 1.6.23
+    version: 1.6.23(svelte@4.2.12)
   '@jill64/universal-sanitizer':
     specifier: 1.2.7
     version: 1.2.7
@@ -919,15 +919,15 @@ packages:
       svelte: 4.2.12
     dev: true
 
-  /@jill64/svelte-input@1.6.22(svelte@4.2.12):
-    resolution: {integrity: sha512-g/wntlcOimdvO96VW93hvlfwpSKvJMycewhwJGVF7iBzXd7f059Kfo84gEGzAfabZd/NGZ3tViVJY+sj4+CPiQ==}
+  /@jill64/svelte-input@1.6.23(svelte@4.2.12):
+    resolution: {integrity: sha512-XjjxUxj1HHN6Dp63Botvr8qzq+UdRfX320/KKrVZ6Z2j1u7VFvDpY22Pvt5OMo6BWQD49kUro9h6BdzFrLtD7w==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
       '@jill64/async-observer': 1.2.3
       bignumber.js: 9.1.2
       svelte: 4.2.12
-      svelte-loading-spinners: 0.3.4
+      svelte-loading-spinners: 0.3.6
     dev: true
 
   /@jill64/svelte-menu@1.0.17(svelte@4.2.12):
@@ -3588,8 +3588,8 @@ packages:
       '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.7)
       svelte: 4.2.12
 
-  /svelte-loading-spinners@0.3.4:
-    resolution: {integrity: sha512-vKaW71QMCBcTNijAGc0mUl8k3DQ66iYmp6MB8BMGCXyWk82bTrcLy8FOnSm9fE+8q6TwzD6PLUoYFHt0II93Xw==}
+  /svelte-loading-spinners@0.3.6:
+    resolution: {integrity: sha512-mthHQ2TwiwzTWzbFry3CBnVEfzqPOD9WkVw84OfSYzHRq6N9wgQ+yv37u81uPeuLU/ZOIPqhujpXquB1aol5ZQ==}
     dev: true
 
   /svelte-mq-store@2.2.11(@sveltejs/kit@2.5.5)(svelte@4.2.12):
