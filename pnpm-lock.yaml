@@ -23,8 +23,8 @@ devDependencies:
     specifier: 1.2.18
     version: 1.2.18(svelte@4.2.12)(typescript@5.4.4)
   '@jill64/npm-demo-layout':
-    specifier: 1.0.155
-    version: 1.0.155(@sveltejs/kit@2.5.5)(svelte@4.2.12)
+    specifier: 1.0.156
+    version: 1.0.156(@sveltejs/kit@2.5.5)(svelte@4.2.12)
   '@jill64/playwright-config':
     specifier: 2.2.5
     version: 2.2.5(@playwright/test@1.43.0)
@@ -821,7 +821,6 @@ packages:
 
   /@jill64/async-observer@1.2.4:
     resolution: {integrity: sha512-mO7teUES+oHXGwhQthr8voBi5lEoDrENoT+CtW/WkPRzSUxBY6HhzouHOMqswtabPaZX/5EIzbnpelKU6efEEQ==}
-    dev: false
 
   /@jill64/eslint-config-svelte@1.2.18(svelte@4.2.12)(typescript@5.4.4):
     resolution: {integrity: sha512-F5eSMoe2KQPdguq2i1BYWLaHm8EDudGsIoDgT03CyHtWS2dPg1m9I0ARRqf+AVq877ThPwgjBSGXV63VzOE4Yw==}
@@ -844,8 +843,8 @@ packages:
       - typescript
     dev: true
 
-  /@jill64/npm-demo-layout@1.0.155(@sveltejs/kit@2.5.5)(svelte@4.2.12):
-    resolution: {integrity: sha512-YagDVD3+0VffjWsZBSfzSA6deCDDxkiM0gK9/OGFa1LpadUpMjHmjqmPODMlggJmfwxDqSfb0skqPgGZw7+EWQ==}
+  /@jill64/npm-demo-layout@1.0.156(@sveltejs/kit@2.5.5)(svelte@4.2.12):
+    resolution: {integrity: sha512-LxIabKxeSVrKOzZe3/irKJD3TBjtbeEEZBzxE7jCEw3DunGRQz5pEY/0+TqTX7HUxg5KMmsL3bEZmx6+LmhQVA==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -857,7 +856,7 @@ packages:
       '@jill64/svelte-toast': 1.3.28(@sveltejs/kit@2.5.5)(svelte@4.2.12)
       '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.8)
       svelte: 4.2.12
-      svelte-code-copy: 1.0.20(@sveltejs/kit@2.5.5)(svelte@4.2.12)
+      svelte-code-copy: 1.0.21(@sveltejs/kit@2.5.5)(svelte@4.2.12)
       svelte-highlight: 7.6.0
       svelte-highlight-switcher: 1.2.9(svelte-highlight@7.6.0)(svelte@4.2.12)
     dev: true
@@ -3513,6 +3512,20 @@ packages:
       svelte-hydrated: 1.0.13(@sveltejs/kit@2.5.5)(svelte@4.2.12)
     transitivePeerDependencies:
       - '@sveltejs/kit'
+    dev: false
+
+  /svelte-code-copy@1.0.21(@sveltejs/kit@2.5.5)(svelte@4.2.12):
+    resolution: {integrity: sha512-SikBqzd5BWkoIIgHFpP75QToOd6GtgQ7bG5N6NCsNwXMGkAPQtBb50Z4++zQ5CNRLp6b5aJmykTFElyQWlgSMg==}
+    peerDependencies:
+      svelte: ^4.0.0
+    dependencies:
+      '@jill64/async-observer': 1.2.4
+      svelte: 4.2.12
+      svelte-feather-icons: 4.1.0
+      svelte-hydrated: 1.0.13(@sveltejs/kit@2.5.5)(svelte@4.2.12)
+    transitivePeerDependencies:
+      - '@sveltejs/kit'
+    dev: true
 
   /svelte-eslint-parser@0.34.1(svelte@4.2.12):
     resolution: {integrity: sha512-9+uLA1pqI9AZioKVGJzYYmlOZWxfoCXSbAM9iaNm7H01XlYlzRTtJfZgl9o3StQGN41PfGJIbkKkfk3e/pHFfA==}
