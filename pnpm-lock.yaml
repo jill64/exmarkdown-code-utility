@@ -35,8 +35,8 @@ devDependencies:
     specifier: 1.7.9
     version: 1.7.9(@sveltejs/kit@2.5.5)(svelte@4.2.12)
   '@jill64/svelte-input':
-    specifier: 1.6.23
-    version: 1.6.23(svelte@4.2.12)
+    specifier: 1.6.24
+    version: 1.6.24(svelte@4.2.12)
   '@jill64/universal-sanitizer':
     specifier: 1.2.8
     version: 1.2.8
@@ -818,6 +818,7 @@ packages:
 
   /@jill64/async-observer@1.2.3:
     resolution: {integrity: sha512-IK0NpUnVdxTlZLgc24DmwZk1UsDCz3g8ZvmQVRFBph7cr55wQgpnj8cIrF7rvdFc4u9TR7fGOw0KWhcCRCahJQ==}
+    dev: false
 
   /@jill64/async-observer@1.2.4:
     resolution: {integrity: sha512-mO7teUES+oHXGwhQthr8voBi5lEoDrENoT+CtW/WkPRzSUxBY6HhzouHOMqswtabPaZX/5EIzbnpelKU6efEEQ==}
@@ -922,12 +923,12 @@ packages:
       svelte: 4.2.12
     dev: true
 
-  /@jill64/svelte-input@1.6.23(svelte@4.2.12):
-    resolution: {integrity: sha512-XjjxUxj1HHN6Dp63Botvr8qzq+UdRfX320/KKrVZ6Z2j1u7VFvDpY22Pvt5OMo6BWQD49kUro9h6BdzFrLtD7w==}
+  /@jill64/svelte-input@1.6.24(svelte@4.2.12):
+    resolution: {integrity: sha512-SHPzkhPtnsg9bjylzdv3KGNR+7pkrDPdr70ZXWZaSPNFwMDttHk9Wn9rdAbM6lo8ViI5OKgIubRr2OZ2ud9hdg==}
     peerDependencies:
       svelte: ^4.0.0
     dependencies:
-      '@jill64/async-observer': 1.2.3
+      '@jill64/async-observer': 1.2.4
       bignumber.js: 9.1.2
       svelte: 4.2.12
       svelte-loading-spinners: 0.3.6
