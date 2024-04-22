@@ -61,8 +61,8 @@ importers:
         specifier: 3.0.3
         version: 3.0.3(svelte@4.2.15)
       svelte-qparam:
-        specifier: 1.0.21
-        version: 1.0.21(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)
+        specifier: 1.0.22
+        version: 1.0.22(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)
       typescript:
         specifier: 5.4.5
         version: 5.4.5
@@ -1856,8 +1856,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  svelte-qparam@1.0.21:
-    resolution: {integrity: sha512-1xgPv6nW4n2LgLTvfzySFNv2jjUdhAC2C6q/tMPHpypFcJltDeXgZQlI1gtUFyJb9wGVtfrZj64FS8b+Aq0a0w==}
+  svelte-qparam@1.0.22:
+    resolution: {integrity: sha512-p8NPVLdUc3oarzMxk3Mn7Pt2ttOMOk2sLL4bgbn91YqghKE8x+cHZ4Ka2XjLfLtlYEDctZZK1Gvlq/GhprbDng==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -1910,6 +1910,9 @@ packages:
   ts-serde@1.0.5:
     resolution: {integrity: sha512-safa9hCNQAyoY6sHL9RRgIHA9VlpJSgDnLr7pjt50G3t+Y5gY70Fib5SZR2W4Eq5VVUpJHDJjDxR9tknzjm2HQ==}
 
+  ts-serde@1.0.6:
+    resolution: {integrity: sha512-nHuo7jHWP6kMdB2AuVKKZMKA1qkypL097QJq8y30EvATmphPmOcI5IBvVD/11VnsQKp+lrSkUuZaRDSaVSmPTA==}
+
   tslib@1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
 
@@ -1930,8 +1933,8 @@ packages:
     resolution: {integrity: sha512-Ne+eE4r0/iWnpAxD852z3A+N0Bt5RN//NjJwRd2VFHEmrywxf5vsZlh4R6lixl6B+wz/8d+maTSAkN1FIkI3LQ==}
     engines: {node: '>=10'}
 
-  typed-qparam@2.1.9:
-    resolution: {integrity: sha512-CYlzDkrIsjE2R+e00E4in0GRZS8lAC3Xz1LKC6m88qs32vLhb4ggqIfaS7IuKQoEd5LmlA97PE64usJ2fAmXKg==}
+  typed-qparam@2.1.10:
+    resolution: {integrity: sha512-KDfM+7SHmbysXq/QPLs0bRAO6Q26xdcpg3aB5DxRzHOjNY9gcGZY8rfg/lrDbQxP9Z4yfh/scYwUqSNHt+bMCg==}
 
   typescanner@0.5.3:
     resolution: {integrity: sha512-B7EGCU7UEvTlFUE/yciT8L1pkNRLhqCa4tatuOuC5cKRCbLelB24y/P9RLDtT1Qq5CyLPSf5h9yv7Ij5BMyWmA==}
@@ -4054,11 +4057,11 @@ snapshots:
       '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3))
       svelte: 4.2.15
 
-  svelte-qparam@1.0.21(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15):
+  svelte-qparam@1.0.22(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15):
     dependencies:
       '@sveltejs/kit': 2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.9(@types/node@20.12.3))
       svelte: 4.2.15
-      typed-qparam: 2.1.9
+      typed-qparam: 2.1.10
 
   svelte-writable-derived@3.1.0(svelte@4.2.15):
     dependencies:
@@ -4119,6 +4122,10 @@ snapshots:
     dependencies:
       devalue: 4.3.3
 
+  ts-serde@1.0.6:
+    dependencies:
+      devalue: 5.0.0
+
   tslib@1.14.1: {}
 
   tslib@2.6.2: {}
@@ -4134,9 +4141,9 @@ snapshots:
 
   type-fest@0.20.2: {}
 
-  typed-qparam@2.1.9:
+  typed-qparam@2.1.10:
     dependencies:
-      ts-serde: 1.0.5
+      ts-serde: 1.0.6
 
   typescanner@0.5.3: {}
 
