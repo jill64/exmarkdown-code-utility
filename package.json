@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/b409f3d33d02bdd91e82e6af234e7c63e1cbe147ac74e7a9fe7d160795be3864/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/ccfdc7cb73e46a17288ca94554393025bc9b76e9d44e74107d3058713fa20b17/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
@@ -71,7 +71,7 @@
     "svelte-qparam": "1.0.22",
     "typescript": "5.4.5",
     "unified": "11.0.4",
-    "vite": "5.2.9",
+    "vite": "5.2.10",
     "@sveltejs/vite-plugin-svelte": "3.1.0"
   },
   "dependencies": {
