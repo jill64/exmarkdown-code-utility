@@ -76,7 +76,7 @@
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.4",
-    "svelte-code-copy": "1.0.23",
+    "svelte-code-copy": "1.0.24",
     "svelte-highlight": "7.6.0",
     "unist-util-visit": "5.0.0"
   }
