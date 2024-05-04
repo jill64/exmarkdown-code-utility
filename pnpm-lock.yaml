@@ -58,8 +58,8 @@ importers:
         specifier: 4.2.15
         version: 4.2.15
       svelte-exmarkdown:
-        specifier: 3.0.4
-        version: 3.0.4(svelte@4.2.15)
+        specifier: 3.0.5
+        version: 3.0.5(svelte@4.2.15)
       svelte-qparam:
         specifier: 1.0.23
         version: 1.0.23(@sveltejs/kit@2.5.7(@sveltejs/vite-plugin-svelte@3.1.0(svelte@4.2.15)(vite@5.2.11(@types/node@20.12.3)))(svelte@4.2.15)(vite@5.2.11(@types/node@20.12.3)))(svelte@4.2.15)
@@ -1801,8 +1801,8 @@ packages:
       svelte:
         optional: true
 
-  svelte-exmarkdown@3.0.4:
-    resolution: {integrity: sha512-jmwaugZqcPhbbaEGtNg3XqclAozL7ffDoxzpanJNYj60jsP9O1Mo+4T2SuMFTzST/K+4G7y4bG/HLPsK4GPCzQ==}
+  svelte-exmarkdown@3.0.5:
+    resolution: {integrity: sha512-x0ELw7oTziBaJLFsdGZaoursycGK9HPzxRTRZ/rBi2KmseFG29ryyborJxFmeE0X6ORrEW1pRjoi8q41xpIeRQ==}
     peerDependencies:
       svelte: ^3.47.0 || ^4.0.0 || >=5.0.0-next.115
 
@@ -3986,7 +3986,7 @@ snapshots:
     optionalDependencies:
       svelte: 4.2.15
 
-  svelte-exmarkdown@3.0.4(svelte@4.2.15):
+  svelte-exmarkdown@3.0.5(svelte@4.2.15):
     dependencies:
       remark-gfm: 4.0.0
       remark-parse: 11.0.0
