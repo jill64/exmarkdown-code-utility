@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "3.1.35",
+  "version": "3.1.36",
   "type": "module",
   "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
