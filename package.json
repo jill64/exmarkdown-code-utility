@@ -70,7 +70,7 @@
     "svelte-exmarkdown": "3.0.5",
     "svelte-qparam": "1.0.26",
     "typescript": "5.4.5",
-    "unified": "11.0.4",
+    "unified": "11.0.5",
     "vite": "5.2.13",
     "@sveltejs/vite-plugin-svelte": "3.1.1"
   },
