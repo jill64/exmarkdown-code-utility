@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/43f61b24ae383b4010e7f24e39150ecc01606a84e8ecc240e9a7e2e8d05648fe/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/c0a584e54b3d5548e275294105775c109170fbe3c387af5a82ba75dcf9e53f37/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
@@ -57,7 +57,7 @@
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
     "@jill64/eslint-config-svelte": "1.2.37",
-    "@jill64/npm-demo-layout": "1.0.214",
+    "@jill64/npm-demo-layout": "1.0.215",
     "@jill64/universal-sanitizer": "1.2.13",
     "@jill64/playwright-config": "2.3.1",
     "@jill64/prettier-config": "1.0.0",
