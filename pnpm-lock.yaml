@@ -37,8 +37,8 @@ importers:
         specifier: 1.7.14
         version: 1.7.14(@sveltejs/kit@2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(@types/node@20.12.3)))(svelte@4.2.18)(vite@5.2.13(@types/node@20.12.3)))(svelte@4.2.18)
       '@jill64/svelte-input':
-        specifier: 1.6.30
-        version: 1.6.30(svelte@4.2.18)
+        specifier: 1.6.31
+        version: 1.6.31(svelte@4.2.18)
       '@jill64/universal-sanitizer':
         specifier: 1.2.13
         version: 1.2.13
@@ -438,9 +438,6 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     deprecated: Use @eslint/object-schema instead
 
-  '@jill64/async-observer@1.2.4':
-    resolution: {integrity: sha512-mO7teUES+oHXGwhQthr8voBi5lEoDrENoT+CtW/WkPRzSUxBY6HhzouHOMqswtabPaZX/5EIzbnpelKU6efEEQ==}
-
   '@jill64/async-observer@1.2.5':
     resolution: {integrity: sha512-eaC9F4Fdb2Mll8dSLyraTubG7c0A0DEns3sdHzTt01k+U/zxvV6CM7bAb/bgL2uGw4F1fXGEGCESNtQ+nK49WQ==}
 
@@ -496,8 +493,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  '@jill64/svelte-input@1.6.30':
-    resolution: {integrity: sha512-vEqv8Y96xhmCTXY/m2BrW9GFkXvt3XZbNYWNgPXK+elJMUIubn1CY1+NZ6Xm6oVXQbD9D9eTr76LTg9EE2Zn3g==}
+  '@jill64/svelte-input@1.6.31':
+    resolution: {integrity: sha512-8caGoqJ4B/PXsUQDn7IropMhLHe5+MPsAfY5hopsDe02Wvej1Fc1e+WV1VdgMGwOhWJ84YoFz4IqCIJxX8zHOA==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -2296,8 +2293,6 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.2': {}
 
-  '@jill64/async-observer@1.2.4': {}
-
   '@jill64/async-observer@1.2.5': {}
 
   '@jill64/eslint-config-svelte@1.2.37(svelte@4.2.18)(typescript@5.5.2)':
@@ -2379,9 +2374,9 @@ snapshots:
       '@sveltejs/kit': 2.5.10(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.2.13(@types/node@20.12.3)))(svelte@4.2.18)(vite@5.2.13(@types/node@20.12.3))
       svelte: 4.2.18
 
-  '@jill64/svelte-input@1.6.30(svelte@4.2.18)':
+  '@jill64/svelte-input@1.6.31(svelte@4.2.18)':
     dependencies:
-      '@jill64/async-observer': 1.2.4
+      '@jill64/async-observer': 1.2.5
       bignumber.js: 9.1.2
       svelte: 4.2.18
       svelte-loading-spinners: 0.3.6
