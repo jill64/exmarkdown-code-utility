@@ -37,8 +37,8 @@ importers:
         specifier: 1.7.15
         version: 1.7.15(@sveltejs/kit@2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.12.3)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.12.3)))(svelte@4.2.18)
       '@jill64/svelte-input':
-        specifier: 1.6.32
-        version: 1.6.32(svelte@4.2.18)
+        specifier: 1.6.33
+        version: 1.6.33(svelte@4.2.18)
       '@jill64/universal-sanitizer':
         specifier: 1.3.0
         version: 1.3.0
@@ -482,8 +482,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  '@jill64/svelte-input@1.6.32':
-    resolution: {integrity: sha512-tGabPxTnHqhQ+T/GnKtit67mgW/yXW+t378ZVNqKrBcDq/q+ITNT/St0ftZz/pJuZqYe2fNiCB3J4UOU3nwBrw==}
+  '@jill64/svelte-input@1.6.33':
+    resolution: {integrity: sha512-FJr2VRwny6vsuwnqRjVbf2Z9sD29aL+EbQGj9l90di34kCYseA/WUvtSr7ARbmI5RQ0VPvXFG31v6JOrTFI59Q==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -2305,7 +2305,7 @@ snapshots:
       '@sveltejs/kit': 2.5.18(@sveltejs/vite-plugin-svelte@3.1.1(svelte@4.2.18)(vite@5.3.3(@types/node@20.12.3)))(svelte@4.2.18)(vite@5.3.3(@types/node@20.12.3))
       svelte: 4.2.18
 
-  '@jill64/svelte-input@1.6.32(svelte@4.2.18)':
+  '@jill64/svelte-input@1.6.33(svelte@4.2.18)':
     dependencies:
       '@jill64/async-observer': 1.2.5
       bignumber.js: 9.1.2
