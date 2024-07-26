@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/bf3c71e4c2ee14c5eaf0cf1f497000ad8a79dd409d577b5669700b725ece889d/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/3fceebc1704c3d97c6da7c2a87b1822b6995cf58223ca7d8a5f550fc97a1741d/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
@@ -62,7 +62,7 @@
     "@jill64/playwright-config": "2.4.0",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "1.7.16",
-    "@jill64/svelte-input": "1.6.33",
+    "@jill64/svelte-input": "1.6.34",
     "@playwright/test": "1.45.3",
     "@sveltejs/adapter-cloudflare": "4.7.0",
     "@sveltejs/kit": "2.5.18",
