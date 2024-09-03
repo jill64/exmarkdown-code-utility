@@ -71,7 +71,7 @@
     "svelte-qparam": "1.0.30",
     "typescript": "5.5.4",
     "unified": "11.0.5",
-    "vite": "5.4.2",
+    "vite": "5.4.3",
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "dependencies": {
