@@ -12,8 +12,8 @@ importers:
         specifier: 1.2.5
         version: 1.2.5
       svelte-code-copy:
-        specifier: 1.0.33
-        version: 1.0.33(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)
+        specifier: 1.0.34
+        version: 1.0.34(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)
       svelte-highlight:
         specifier: 7.7.0
         version: 7.7.0
@@ -1804,8 +1804,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
 
-  svelte-code-copy@1.0.33:
-    resolution: {integrity: sha512-7jYafNWygLJ5C9H1tjkIfJVIZl8Ws7UNDzpaUvcrC7igee+s7JFcQomao8glh+wzHk6T5W1CWZte0YBEMp5U0A==}
+  svelte-code-copy@1.0.34:
+    resolution: {integrity: sha512-pwOSnp86uwmgnsy6QzYGFzx6g5ltz7hqIhAeB3gw+CiESjEBmqoFFSCzt/FnSBOEX3mJaLpu7Pbj68h46F+pQw==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -3984,7 +3984,7 @@ snapshots:
     transitivePeerDependencies:
       - '@sveltejs/kit'
 
-  svelte-code-copy@1.0.33(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19):
+  svelte-code-copy@1.0.34(@sveltejs/kit@2.5.28(@sveltejs/vite-plugin-svelte@3.1.2(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19)(vite@5.4.7(@types/node@20.12.3)))(svelte@4.2.19):
     dependencies:
       '@jill64/async-observer': 1.2.5
       svelte: 4.2.19
