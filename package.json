@@ -65,7 +65,7 @@
     "@jill64/svelte-input": "1.6.36",
     "@playwright/test": "1.48.0",
     "@sveltejs/adapter-cloudflare": "4.7.3",
-    "@sveltejs/kit": "2.6.4",
+    "@sveltejs/kit": "2.7.0",
     "svelte": "4.2.19",
     "svelte-exmarkdown": "3.0.5",
     "svelte-qparam": "1.0.34",
