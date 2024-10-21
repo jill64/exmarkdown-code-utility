@@ -52,7 +52,7 @@
   },
   "peerDependencies": {
     "svelte": "^4.0.0 || ^5.0.0",
-    "svelte-exmarkdown": "^3.0.0"
+    "svelte-exmarkdown": "^3.0.0 || ^4.0.0"
   },
   "prettier": "@jill64/prettier-config",
   "devDependencies": {
@@ -67,7 +67,7 @@
     "@sveltejs/adapter-cloudflare": "4.7.3",
     "@sveltejs/kit": "2.7.1",
     "svelte": "5.0.4",
-    "svelte-exmarkdown": "3.0.5",
+    "svelte-exmarkdown": "4.0.0",
     "svelte-qparam": "1.0.34",
     "typescript": "5.6.3",
     "unified": "11.0.5",
