@@ -67,7 +67,7 @@
     "@sveltejs/adapter-cloudflare": "4.8.0",
     "@sveltejs/kit": "2.8.3",
     "svelte": "5.1.2",
-    "svelte-exmarkdown": "4.0.1",
+    "svelte-exmarkdown": "4.0.2",
     "svelte-qparam": "1.0.36",
     "typescript": "5.7.2",
     "unified": "11.0.5",
