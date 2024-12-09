@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@jill64/async-observer':
-        specifier: 1.2.5
-        version: 1.2.5
+        specifier: 1.2.6
+        version: 1.2.6
       svelte-code-copy:
         specifier: 1.0.37
         version: 1.0.37(@sveltejs/kit@2.8.3(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
@@ -584,6 +584,9 @@ packages:
 
   '@jill64/async-observer@1.2.5':
     resolution: {integrity: sha512-eaC9F4Fdb2Mll8dSLyraTubG7c0A0DEns3sdHzTt01k+U/zxvV6CM7bAb/bgL2uGw4F1fXGEGCESNtQ+nK49WQ==}
+
+  '@jill64/async-observer@1.2.6':
+    resolution: {integrity: sha512-UyxncPsDKpRNS88VVY1/P7Xrt5OEuXbrEWxcFhnrotKZRDWsgtC/h3gpfBlGFcUZeDdHm8/7hvdby2y6RHBEwg==}
 
   '@jill64/eslint-config-svelte@1.3.25':
     resolution: {integrity: sha512-g3Zko9nIOep2EWGWQM1CSV7QQNS7no9nowMXl//JnJBhEHa24cH2doNnejNY4HC6klOj0ami019mbTo7LD8pEA==}
@@ -2540,6 +2543,8 @@ snapshots:
   '@humanwhocodes/object-schema@2.0.3': {}
 
   '@jill64/async-observer@1.2.5': {}
+
+  '@jill64/async-observer@1.2.6': {}
 
   '@jill64/eslint-config-svelte@1.3.25(svelte@5.1.2)(typescript@5.7.2)':
     dependencies:
