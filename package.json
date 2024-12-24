@@ -75,7 +75,7 @@
     "@sveltejs/vite-plugin-svelte": "3.1.2"
   },
   "dependencies": {
-    "@jill64/async-observer": "1.2.5",
+    "@jill64/async-observer": "1.2.6",
     "svelte-code-copy": "1.0.38",
     "svelte-highlight": "7.8.0",
     "unist-util-visit": "5.0.0"
