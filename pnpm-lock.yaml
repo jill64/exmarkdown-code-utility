@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.38
         version: 1.0.38(@sveltejs/kit@2.8.3(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
       svelte-highlight:
-        specifier: 7.8.0
-        version: 7.8.0
+        specifier: 7.8.1
+        version: 7.8.1
       unist-util-visit:
         specifier: 5.0.0
         version: 5.0.0
@@ -1380,8 +1380,8 @@ packages:
     resolution: {integrity: sha512-SYVnVFswQER+zu1laSya563s+F8VDGt7o35d4utbamowvUNLLMovFqwCLSocpZTz3MgaSRA1IbqRWZv97dtErQ==}
     engines: {node: '>=12.0.0'}
 
-  highlight.js@11.11.0:
-    resolution: {integrity: sha512-6ErL7JlGu2CNFHyRQEuDogOyGPNiqcuWdt4iSSFUPyferNTGlNTPFqeV36Y/XwA4V/TJ8l0sxp6FTnxud/mf8g==}
+  highlight.js@11.11.1:
+    resolution: {integrity: sha512-Xwwo44whKBVCYoliBQwaPvtd/2tYFkRQtXDWj1nackaV2JPXx3L0+Jvd8/qCJ2p+ML0/XVkJ2q+Mr+UVdpJK5w==}
     engines: {node: '>=12.0.0'}
 
   htmlparser2@8.0.2:
@@ -1976,8 +1976,8 @@ packages:
   svelte-highlight@7.7.0:
     resolution: {integrity: sha512-umBiTz3fLbbNCA+wGlRhJOb54iC6ap8S/dxjauQ+g6a8oFGTOGQeOP2rJVoh/K1ssF7IjP4P0T3Yuiu+vtaG5Q==}
 
-  svelte-highlight@7.8.0:
-    resolution: {integrity: sha512-T7iwOq9ihrKze+Ec79OeP7xRbRRsqz4+ueY14MXpZGu6e19Ik8rOaAFYfm8ANf2+RUG/qZL6wTzEmX4P/2eVkQ==}
+  svelte-highlight@7.8.1:
+    resolution: {integrity: sha512-0YjBPDklAkxSNGc6TpRQXUp4z4LhzM30fTwiW0D+hhxxXrcfBR347i4G1SlS/SPAXI2pSwaU9IWcV9cWVRVAcA==}
 
   svelte-hmr@0.16.0:
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}
@@ -3456,7 +3456,7 @@ snapshots:
 
   highlight.js@11.10.0: {}
 
-  highlight.js@11.11.0: {}
+  highlight.js@11.11.1: {}
 
   htmlparser2@8.0.2:
     dependencies:
@@ -4245,9 +4245,9 @@ snapshots:
     dependencies:
       highlight.js: 11.10.0
 
-  svelte-highlight@7.8.0:
+  svelte-highlight@7.8.1:
     dependencies:
-      highlight.js: 11.11.0
+      highlight.js: 11.11.1
 
   svelte-hmr@0.16.0(svelte@5.1.2):
     dependencies:
