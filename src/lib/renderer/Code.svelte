@@ -1,7 +1,7 @@
 <script lang="ts">
   import { CodeCopy } from 'svelte-code-copy'
   import { HighlightAuto } from 'svelte-highlight'
-  import { options } from '../options.js'
+  import { options } from '../options.svelte.js'
 
   $: source = $$props['data-source'] ?? ''
 
@@ -10,15 +10,15 @@
   )
 </script>
 
-{#if $options?.hideCopyButton}
-  {#if $options?.highlight}
+{#if options?.hideCopyButton}
+  {#if options?.highlight}
     <HighlightAuto {...attributes} code={source} />
   {:else}
     <pre><code {...attributes}><slot /></code></pre>
   {/if}
 {:else}
-  <CodeCopy {...$options?.codeCopy}>
-    {#if $options?.highlight}
+  <CodeCopy {...options?.codeCopy}>
+    {#if options?.highlight}
       <HighlightAuto {...attributes} code={source} />
     {:else}
       <pre><code {...attributes}><slot /></code></pre>
