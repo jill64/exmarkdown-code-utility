@@ -1,6 +1,3 @@
-import type { SvelteComponent } from 'svelte'
-import type { CodeCopy } from 'svelte-code-copy'
-
 export type Options = {
   /**
    * Hide filename from the code block.
@@ -30,8 +27,23 @@ export type Options = {
 
   /**
    * Options of `svelte-code-copy`.
-   * @default 'button'
+   * @default {}
    * @see https://github.com/jill64/svelte-code-copy#readme
    */
-  codeCopy?: CodeCopy extends SvelteComponent<infer U> ? U : never
+  codeCopy?: {
+    onCopy?: (promise: Promise<string>) => void
+    size?: number
+    background?: string
+    color?: string
+    success?: string
+    error?: string
+    top?: string
+    right?: string
+    border?: string
+    padding?: string
+    borderRadius?: string
+    margin?: string
+    effect?: 'none' | 'push' | 'pop'
+    duration?: number
+  }
 }

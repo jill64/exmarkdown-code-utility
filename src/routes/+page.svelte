@@ -2,7 +2,6 @@
   import { page } from '$app/stores'
   import { codeUtility } from '$lib'
   import { toast } from '@jill64/npm-demo-layout'
-  import { TextArea } from '@jill64/svelte-input'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
   import InvertedToggle from './InvertedToggle.svelte'
@@ -16,12 +15,11 @@
 </script>
 
 <main>
-  <TextArea
+  <textarea
     placeholder="Markdown"
-    padding="0.5rem"
-    style="background: inherit; color: inherit; border-radius: 0.5rem; border: 1px solid #aaa;"
+    style="field-sizing: content; padding: 0.5rem; background: inherit; color: inherit; border-radius: 0.5rem; border: 1px solid #aaa;"
     bind:value={md}
-  />
+  ></textarea>
   <div class="output">
     <aside>
       <InvertedToggle param={no_highlight} label="Highlight" />
