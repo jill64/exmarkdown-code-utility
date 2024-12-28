@@ -15,8 +15,8 @@ importers:
         specifier: 1.0.38
         version: 1.0.38(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
       svelte-highlight:
-        specifier: 7.8.1
-        version: 7.8.1
+        specifier: 7.8.2
+        version: 7.8.2
       unist-util-visit:
         specifier: 5.0.0
         version: 5.0.0
@@ -1922,8 +1922,8 @@ packages:
   svelte-highlight@7.7.0:
     resolution: {integrity: sha512-umBiTz3fLbbNCA+wGlRhJOb54iC6ap8S/dxjauQ+g6a8oFGTOGQeOP2rJVoh/K1ssF7IjP4P0T3Yuiu+vtaG5Q==}
 
-  svelte-highlight@7.8.1:
-    resolution: {integrity: sha512-0YjBPDklAkxSNGc6TpRQXUp4z4LhzM30fTwiW0D+hhxxXrcfBR347i4G1SlS/SPAXI2pSwaU9IWcV9cWVRVAcA==}
+  svelte-highlight@7.8.2:
+    resolution: {integrity: sha512-fJZOQtI71CIAOzv43h/cHVDABB3YfWFERGxZx4RisBVHjEuJXfnrrEOhPS0iE2uZUFyQKDWZyzPlcYyBAkH2iA==}
 
   svelte-hmr@0.16.0:
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}
@@ -4099,7 +4099,7 @@ snapshots:
     dependencies:
       highlight.js: 11.10.0
 
-  svelte-highlight@7.8.1:
+  svelte-highlight@7.8.2:
     dependencies:
       highlight.js: 11.11.1
 
