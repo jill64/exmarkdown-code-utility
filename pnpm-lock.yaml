@@ -12,8 +12,8 @@ importers:
         specifier: 1.2.6
         version: 1.2.6
       svelte-code-copy:
-        specifier: 1.0.38
-        version: 1.0.38(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
+        specifier: 2.1.0
+        version: 2.1.0(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
       svelte-highlight:
         specifier: 7.8.2
         version: 7.8.2
@@ -665,6 +665,11 @@ packages:
     resolution: {integrity: sha512-qHABrcIpVcg6JEhPD8N5jchF9FEOr02GEwsoTxO4s4V6pZC/3FsCxKwsW2PwNKS842+1iXRuea+n3FyP5PaBCQ==}
     peerDependencies:
       svelte: ^4.0.0
+
+  '@jill64/svelte-observer@0.0.1':
+    resolution: {integrity: sha512-M+lfGrvfYM9C9svCKXvywurORtBBeSH61eyJ092yJpGlDawIiE/VWu5/L5Drr1wYUs/p176+NEsbzKnjWHgS1Q==}
+    peerDependencies:
+      svelte: ^5.0.0
 
   '@jill64/svelte-ogp@1.1.32':
     resolution: {integrity: sha512-oTkKijcMGOFicBy912BoSijC/Ij7xlOM+OOKpmqNCRwTiH4Y7qn8YSyxt1vIREMHTm56QCE6mNSYFgccVTjRJA==}
@@ -1883,8 +1888,8 @@ packages:
     peerDependencies:
       svelte: ^4.0.0
 
-  svelte-code-copy@1.0.38:
-    resolution: {integrity: sha512-2oApTF8dySJvHdRil0KZn4SU8mD5aTF1Er7jUyQs9Ey+TX9l2dye1dQPc/4glN3Z7F410WjZxQhU2yw/994Vwg==}
+  svelte-code-copy@2.1.0:
+    resolution: {integrity: sha512-xXnVdv0NRDffxd6qy3ddJAz1TbsgHu/8cKpBSZv+moP2pAEgdDW6iMdo/iXrSbRIc7KZw/hNr2XoZI2Sxp6bFw==}
     peerDependencies:
       svelte: ^4.0.0
 
@@ -1937,8 +1942,8 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  svelte-hydrated@1.0.24:
-    resolution: {integrity: sha512-TVZnw2svpwNbBtuVgWBk9cylz7Cuia4MuFmQqNh/PnIsCl0ENZwbg3lS1rOYI3iu/X8EsX68k4gIObmZh1h8hw==}
+  svelte-hydrated@1.0.31:
+    resolution: {integrity: sha512-pxtvruH3vBrdOkJ++2/RDZAdW0egJmcNRtUpBpw9+POtfDsbVPCMPxOCleME/78aQSvsUyNd3YtmHi5wkraq8w==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
@@ -2545,6 +2550,10 @@ snapshots:
       svelte-loading-spinners: 0.3.6
 
   '@jill64/svelte-menu@1.0.26(svelte@5.1.2)':
+    dependencies:
+      svelte: 5.1.2
+
+  '@jill64/svelte-observer@0.0.1(svelte@5.1.2)':
     dependencies:
       svelte: 5.1.2
 
@@ -4048,12 +4057,12 @@ snapshots:
     transitivePeerDependencies:
       - '@sveltejs/kit'
 
-  svelte-code-copy@1.0.38(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2):
+  svelte-code-copy@2.1.0(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2):
     dependencies:
-      '@jill64/async-observer': 1.2.6
+      '@jill64/svelte-observer': 0.0.1(svelte@5.1.2)
       svelte: 5.1.2
       svelte-feather-icons: 4.2.0
-      svelte-hydrated: 1.0.24(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
+      svelte-hydrated: 1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)
     transitivePeerDependencies:
       - '@sveltejs/kit'
 
@@ -4112,7 +4121,7 @@ snapshots:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3))
       svelte: 5.1.2
 
-  svelte-hydrated@1.0.24(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2):
+  svelte-hydrated@1.0.31(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2):
     dependencies:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3)))(svelte@5.1.2)(vite@5.4.11(@types/node@20.12.3))
       svelte: 5.1.2
