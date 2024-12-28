@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "3.1.63",
+  "version": "3.2.0",
   "type": "module",
   "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/99ee7bdb2659409ba33a8de1b993234081bb7ea7c592cea8c75d8b30597e3526/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/492f39e105a02f01ea03038e7e64f09be5807da18f6cd690a349b0f75f1899da/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
@@ -62,21 +62,21 @@
     "@jill64/playwright-config": "2.4.2",
     "@jill64/prettier-config": "1.0.0",
     "@jill64/sentry-sveltekit-cloudflare": "2.0.1",
-    "@jill64/svelte-input": "1.6.36",
+    "@jill64/svelte-input": "2.0.0",
     "@playwright/test": "1.48.2",
     "@sveltejs/adapter-cloudflare": "5.0.0",
     "@sveltejs/kit": "2.15.1",
-    "svelte": "5.1.2",
+    "svelte": "5.16.0",
     "svelte-exmarkdown": "4.0.2",
     "svelte-qparam": "1.0.37",
     "typescript": "5.7.2",
     "unified": "11.0.5",
-    "vite": "5.4.11",
-    "@sveltejs/vite-plugin-svelte": "3.1.2"
+    "vite": "6.0.6",
+    "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.6",
-    "svelte-code-copy": "1.0.38",
+    "svelte-code-copy": "2.1.0",
     "svelte-highlight": "7.8.2",
     "unist-util-visit": "5.0.0"
   }
