@@ -1,6 +1,6 @@
 {
   "name": "exmarkdown-code-utility",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "type": "module",
   "description": "❏ Code utility plugin for svelte-exmarkdown",
   "main": "dist/index.js",
@@ -37,7 +37,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/6cba5790bb3191b52dfcced5b5eb3fe5cde1c30f3c709a36d3c88122e7edc3c3/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/0b4a4a28b9c3c441c442c8260014ca2ed8c7d649442b0b62071cc5be6ed0b592/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
@@ -76,7 +76,7 @@
   },
   "dependencies": {
     "@jill64/async-observer": "1.2.6",
-    "svelte-code-copy": "2.1.0",
+    "svelte-code-copy": "2.1.1",
     "svelte-highlight": "7.8.2",
     "unist-util-visit": "5.0.0"
   }
