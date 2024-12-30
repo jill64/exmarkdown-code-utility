@@ -9,10 +9,8 @@ import type { RootNode } from './types/RootNode.js'
 export const codeUtilityLight = (
   options?: Omit<Options, 'highlight'>
 ): Plugin => {
-  store.hideFilename = options?.hideFilename
-  store.hideCopyButton = options?.hideCopyButton
-  store.filenameTag = options?.filenameTag
-  store.codeCopy = options?.codeCopy
+  store.hideCopyButton = options?.hideCopyButton ?? false
+  store.codeCopy = options?.codeCopy ?? {}
 
   return {
     rehypePlugin: () => (tree: RootNode) => {

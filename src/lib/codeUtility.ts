@@ -7,11 +7,9 @@ import type { Options } from './types/Options.js'
 import type { RootNode } from './types/RootNode.js'
 
 export const codeUtility = (options?: Options): Plugin => {
-  store.hideFilename = options?.hideFilename
-  store.hideCopyButton = options?.hideCopyButton
-  store.filenameTag = options?.filenameTag
-  store.highlight = options?.highlight
-  store.codeCopy = options?.codeCopy
+  store.hideCopyButton = options?.hideCopyButton ?? false
+  store.highlight = options?.highlight ?? true
+  store.codeCopy = options?.codeCopy ?? {}
 
   return {
     rehypePlugin: () => (tree: RootNode) => {

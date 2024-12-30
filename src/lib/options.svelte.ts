@@ -1,9 +1,6 @@
-import type { Options } from './types/Options.js'
-
-let store = $state<Omit<Options, 'hideFilename'>>({
+let store = $state({
   hideCopyButton: false,
-  highlight: false,
-  filenameTag: 'div',
+  highlight: true,
   codeCopy: {}
 })
 
@@ -19,12 +16,6 @@ export const options = {
   },
   set highlight(value) {
     store.highlight = value
-  },
-  get filenameTag() {
-    return store.filenameTag
-  },
-  set filenameTag(value) {
-    store.filenameTag = value
   },
   get codeCopy() {
     return store.codeCopy
