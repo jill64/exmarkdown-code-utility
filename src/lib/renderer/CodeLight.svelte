@@ -2,15 +2,23 @@
   import { CodeCopy } from 'svelte-code-copy'
   import { options } from '../options.svelte.js'
 
-  $: attributes = Object.fromEntries(
-    Object.entries($$props).filter(([key]) => key !== 'data-source')
+  let allProps = $props()
+
+  let attributes = $derived(
+    Object.fromEntries(
+      Object.entries(allProps).filter(([key]) => key !== 'data-source')
+    )
   )
 </script>
 
+{#snippet codeBlock()}
+  <pre><code {...attributes}>{@render allProps.children()}</code></pre>
+{/snippet}
+
 {#if options?.hideCopyButton}
-  <pre><code {...attributes}><slot /></code></pre>
+  {@render codeBlock()}
 {:else}
   <CodeCopy {...options?.codeCopy}>
-    <pre><code {...attributes}><slot /></code></pre>
+    {@render codeBlock()}
   </CodeCopy>
 {/if}

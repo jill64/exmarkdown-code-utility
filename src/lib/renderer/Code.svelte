@@ -3,25 +3,33 @@
   import { HighlightAuto } from 'svelte-highlight'
   import { options } from '../options.svelte.js'
 
-  $: source = $$props['data-source'] ?? ''
+  let allProps = $props()
 
-  $: attributes = Object.fromEntries(
-    Object.entries($$props).filter(([key]) => key !== 'data-source')
+  let source = $derived(allProps['data-source'] ?? '')
+
+  let attributes = $derived(
+    Object.fromEntries(
+      Object.entries(allProps).filter(([key]) => key !== 'data-source')
+    )
   )
 </script>
+
+{#snippet codeBlock()}
+  <pre><code {...attributes}>{@render allProps.children()}</code></pre>
+{/snippet}
 
 {#if options?.hideCopyButton}
   {#if options?.highlight}
     <HighlightAuto {...attributes} code={source} />
   {:else}
-    <pre><code {...attributes}><slot /></code></pre>
+    {@render codeBlock()}
   {/if}
 {:else}
   <CodeCopy {...options?.codeCopy}>
     {#if options?.highlight}
       <HighlightAuto {...attributes} code={source} />
     {:else}
-      <pre><code {...attributes}><slot /></code></pre>
+      {@render codeBlock()}
     {/if}
   </CodeCopy>
 {/if}
