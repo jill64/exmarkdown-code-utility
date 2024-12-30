@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@jill64/async-observer':
-        specifier: 1.2.6
-        version: 1.2.6
       svelte-code-copy:
         specifier: 2.1.1
         version: 2.1.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)
@@ -61,8 +58,8 @@ importers:
         specifier: 4.0.2
         version: 4.0.2(svelte@5.16.0)
       svelte-qparam:
-        specifier: 1.0.37
-        version: 1.0.37(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)
+        specifier: 2.1.1
+        version: 2.1.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)
       typescript:
         specifier: 5.7.2
         version: 5.7.2
@@ -623,9 +620,6 @@ packages:
 
   '@jill64/async-observer@1.2.5':
     resolution: {integrity: sha512-eaC9F4Fdb2Mll8dSLyraTubG7c0A0DEns3sdHzTt01k+U/zxvV6CM7bAb/bgL2uGw4F1fXGEGCESNtQ+nK49WQ==}
-
-  '@jill64/async-observer@1.2.6':
-    resolution: {integrity: sha512-UyxncPsDKpRNS88VVY1/P7Xrt5OEuXbrEWxcFhnrotKZRDWsgtC/h3gpfBlGFcUZeDdHm8/7hvdby2y6RHBEwg==}
 
   '@jill64/eslint-config-svelte@2.0.1':
     resolution: {integrity: sha512-hZNOkLh6J6yuqkFf8afwn4xegWpkfpbB6fOsPAI+ShrZ+railsXkvov3NF3mQHbOwLWX/KpL/Jd5gVcd/5k4Iw==}
@@ -1995,11 +1989,11 @@ packages:
       '@sveltejs/kit': ^2.0.0
       svelte: ^4.0.0
 
-  svelte-qparam@1.0.37:
-    resolution: {integrity: sha512-4XIHS6mcgiZe+6dIUvng4DaZFGhKu+Iy08I87Dmfk8kRWb2NtLx6E45/x2GG+/A748cmG0KpAFbowLGUsT5CBw==}
+  svelte-qparam@2.1.1:
+    resolution: {integrity: sha512-WGmNcZ/a883LxoaiXQzUFXT8bHwM02eczC/jBDaOXWqezRAU1FOWBzgSjIqI/UivtGo3rNG67j3qXo6O3PwT8Q==}
     peerDependencies:
       '@sveltejs/kit': ^2.0.0
-      svelte: ^4.0.0 || ^5.0.0
+      svelte: ^5.0.0
 
   svelte-writable-derived@3.1.0:
     resolution: {integrity: sha512-cTvaVFNIJ036vSDIyPxJYivKC7ZLtcFOPm1Iq6qWBDo1fOHzfk6ZSbwaKrxhjgy52Rbl5IHzRcWgos6Zqn9/rg==}
@@ -2525,8 +2519,6 @@ snapshots:
   '@humanwhocodes/retry@0.4.1': {}
 
   '@jill64/async-observer@1.2.5': {}
-
-  '@jill64/async-observer@1.2.6': {}
 
   '@jill64/eslint-config-svelte@2.0.1(svelte@5.16.0)(typescript@5.7.2)':
     dependencies:
@@ -4206,7 +4198,7 @@ snapshots:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3))
       svelte: 5.16.0
 
-  svelte-qparam@1.0.37(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0):
+  svelte-qparam@2.1.1(@sveltejs/kit@2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0):
     dependencies:
       '@sveltejs/kit': 2.15.1(@sveltejs/vite-plugin-svelte@5.0.3(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3)))(svelte@5.16.0)(vite@6.0.6(@types/node@20.12.3))
       svelte: 5.16.0
