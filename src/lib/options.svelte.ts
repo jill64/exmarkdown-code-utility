@@ -1,7 +1,6 @@
 import type { Options } from './types/Options.js'
 
-let store = $state<Options>({
-  hideFilename: false,
+let store = $state<Omit<Options, 'hideFilename'>>({
   hideCopyButton: false,
   highlight: false,
   filenameTag: 'div',
@@ -9,12 +8,6 @@ let store = $state<Options>({
 })
 
 export const options = {
-  get hideFilename() {
-    return store.hideFilename
-  },
-  set hideFilename(value) {
-    store.hideFilename = value
-  },
   get hideCopyButton() {
     return store.hideCopyButton
   },
