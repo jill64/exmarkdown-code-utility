@@ -30,6 +30,7 @@
   },
   "keywords": [
     "code",
+    "library",
     "markdown",
     "plugin",
     "svelte"
@@ -37,7 +38,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/32a79017c1d092c4881a176ad91801e81e6e57ef40b8ba4e43126af5d2bbab51/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/338f5eb2a5e7c0dd2c58ef954b60ef09700b0dbbdbf6e53ca20e16e90ed7a629/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
