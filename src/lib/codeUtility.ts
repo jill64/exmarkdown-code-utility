@@ -7,6 +7,7 @@ import type { Options } from './types/Options.js'
 import type { RootNode } from './types/RootNode.js'
 
 export const codeUtility = (options?: Options): Plugin => {
+  // Here is where the error occurs
   store.hideCopyButton = options?.hideCopyButton ?? false
   store.highlight = options?.highlight ?? true
   store.codeCopy = options?.codeCopy ?? {}
