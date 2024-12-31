@@ -38,7 +38,7 @@
             codeCopy: {
               color: 'inherit',
               onCopy: (promise) =>
-                $toast.promise(promise, {
+                toast.promise(promise, {
                   loading: 'Copying...',
                   success: 'Copied!',
                   error: 'Failed to copy'
