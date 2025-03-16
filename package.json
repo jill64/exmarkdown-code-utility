@@ -38,7 +38,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/db5c7f4f1e0209c4a25df95d84e3212521124ad49cc72ac68a9a575f723f99a9/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/07219f7e6b6b8b63283473484e914510ab031770f22b14d84da47c086956e009/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
