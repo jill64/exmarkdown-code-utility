@@ -42,14 +42,14 @@
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npm run package",
-    "preview": "pnpm build && vite preview",
-    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
+    "build": "vite build && bun run package",
+    "preview": "bun run build && vite preview",
+    "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
     "test:e2e": "playwright test",
-    "prepack": "npm run build",
-    "check": "svelte-kit sync && npx svelte-check",
-    "format": "npx @jill64/psx",
-    "lint": "npm run check && npx eslint ."
+    "prepack": "bun run build",
+    "check": "svelte-kit sync && bunx svelte-check",
+    "format": "bunx psvx",
+    "lint": "bun run check && bunx eslint ."
   },
   "peerDependencies": {
     "svelte": "^4.0.0 || ^5.0.0",
