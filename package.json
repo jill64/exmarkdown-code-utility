@@ -38,18 +38,18 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jill64/exmarkdown-code-utility.git",
-    "image": "https://opengraph.githubassets.com/57b5c19a9371df4598f28a4ed5d93746d29729ff0cc744c6417be856b71d0261/jill64/exmarkdown-code-utility"
+    "image": "https://opengraph.githubassets.com/5bff5d35f63bb8e94248f421618406715ad7e3d2862f5bb369a918a3a1335c4b/jill64/exmarkdown-code-utility"
   },
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build && npm run package",
-    "preview": "pnpm build && vite preview",
-    "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "test": "playwright test",
-    "prepack": "npm run build",
-    "check": "svelte-kit sync && npx svelte-check",
-    "format": "npx @jill64/psx",
-    "lint": "npm run check && npx eslint ."
+    "build": "vite build && bun run package",
+    "preview": "bun run build && vite preview",
+    "package": "svelte-kit sync && bunx @sveltejs/package && bunx publint",
+    "test:e2e": "playwright test",
+    "prepack": "bun run build",
+    "check": "svelte-kit sync && bunx svelte-check",
+    "format": "bunx psvx",
+    "lint": "bun run check && bunx eslint ."
   },
   "peerDependencies": {
     "svelte": "^4.0.0 || ^5.0.0",
@@ -76,6 +76,7 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
+    "@jill64/attempt": "1.1.5",
     "@jill64/async-observer": "1.2.6",
     "svelte-code-copy": "2.2.0",
     "svelte-highlight": "7.8.2",

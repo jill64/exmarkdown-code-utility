@@ -2,16 +2,15 @@
   import { page } from '$app/stores'
   import { codeUtility } from '$lib'
   import { toast } from '@jill64/npm-demo-layout'
+  import { ToggleSwitch } from '@jill64/svelte-input'
   import { Markdown } from 'svelte-exmarkdown'
   import { gfmPlugin } from 'svelte-exmarkdown/gfm'
-  import InvertedToggle from './InvertedToggle.svelte'
   import mock from './mock.md?raw'
   import { qparam } from './qparam'
 
-  $: ({ qparams } = qparam($page.url))
-  $: ({ no_highlight, hide_copy, hide_filename } = qparams)
+  let { qparams } = $derived(qparam($page.url))
 
-  let md = mock
+  let md = $state(mock)
 </script>
 
 <main>
@@ -22,9 +21,30 @@
   ></textarea>
   <div class="output">
     <aside>
-      <InvertedToggle param={no_highlight} label="Highlight" />
-      <InvertedToggle param={hide_copy} label="Copy Button" />
-      <InvertedToggle param={hide_filename} label="File Name" />
+      <ToggleSwitch
+        value={!qparams.no_highlight}
+        onChange={(x) => {
+          qparams.no_highlight = !x
+        }}
+      >
+        <span style:margin-left="0.5rem">Highlight</span>
+      </ToggleSwitch>
+      <ToggleSwitch
+        value={!qparams.hide_copy}
+        onChange={(x) => {
+          qparams.hide_copy = !x
+        }}
+      >
+        <span style:margin-left="0.5rem">Copy Button</span>
+      </ToggleSwitch>
+      <ToggleSwitch
+        value={!qparams.hide_filename}
+        onChange={(x) => {
+          qparams.hide_filename = !x
+        }}
+      >
+        <span style:margin-left="0.5rem">File Name</span>
+      </ToggleSwitch>
     </aside>
     <output data-testid="markdown-preview">
       <Markdown
@@ -32,9 +52,9 @@
         plugins={[
           gfmPlugin(),
           codeUtility({
-            highlight: !$no_highlight,
-            hideCopyButton: $hide_copy,
-            hideFilename: $hide_filename,
+            highlight: !qparams.no_highlight,
+            hideCopyButton: qparams.hide_copy,
+            hideFilename: qparams.hide_filename,
             codeCopy: {
               color: 'inherit',
               onCopy: (promise) =>
