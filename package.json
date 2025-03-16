@@ -45,7 +45,7 @@
     "build": "vite build && npm run package",
     "preview": "pnpm build && vite preview",
     "package": "svelte-kit sync && npx @sveltejs/package && npx publint",
-    "test": "playwright test",
+    "test:e2e": "playwright test",
     "prepack": "npm run build",
     "check": "svelte-kit sync && npx svelte-check",
     "format": "npx @jill64/psx",
@@ -76,6 +76,7 @@
     "@sveltejs/vite-plugin-svelte": "5.0.3"
   },
   "dependencies": {
+    "@jill64/attempt": "1.1.5",
     "@jill64/async-observer": "1.2.6",
     "svelte-code-copy": "2.2.0",
     "svelte-highlight": "7.8.2",

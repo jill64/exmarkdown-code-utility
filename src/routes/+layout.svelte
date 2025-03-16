@@ -8,9 +8,8 @@
   let { children } = $props()
 
   let { qparams } = $derived(qparam(page.url))
-  let { no_highlight } = $derived(qparams)
 </script>
 
-<Layout disableThemeSwitcher={$no_highlight} {README} {packageJson}>
+<Layout disableThemeSwitcher={qparams.no_highlight} {README} {packageJson}>
   {@render children()}
 </Layout>

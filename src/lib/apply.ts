@@ -3,7 +3,8 @@ import type { Options } from './types/Options'
 import type { RootNode } from './types/RootNode'
 
 export const apply =
-  (options?: Omit<Options, 'highlight'>) => (node: ElementNode | RootNode) => {
+  (options?: Options | Omit<Options, 'highlight'>) =>
+  (node: ElementNode | RootNode) => {
     node.children.forEach((child, index) => {
       if (child.type !== 'element') {
         return
@@ -40,7 +41,13 @@ export const apply =
       if (code.type === 'element') {
         code.properties = {
           ...code.properties,
-          'data-source': source.value
+          'data-source': source.value,
+          'hide-copy-button': options?.hideCopyButton?.toString() ?? 'false',
+          'code-copy': JSON.stringify(options?.codeCopy),
+          highlight:
+            options && 'highlight' in options
+              ? (options.highlight?.toString() ?? 'false')
+              : 'false'
         }
       }
 
