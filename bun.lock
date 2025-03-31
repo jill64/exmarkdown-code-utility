@@ -5,7 +5,7 @@
       "name": "exmarkdown-code-utility",
       "dependencies": {
         "@jill64/async-observer": "1.2.6",
-        "@jill64/attempt": "1.1.6",
+        "@jill64/attempt": "1.1.7",
         "svelte-code-copy": "2.2.0",
         "svelte-highlight": "7.8.2",
         "unist-util-visit": "5.0.0",
@@ -180,7 +180,7 @@
 
     "@jill64/async-observer": ["@jill64/async-observer@1.2.6", "", {}, "sha512-UyxncPsDKpRNS88VVY1/P7Xrt5OEuXbrEWxcFhnrotKZRDWsgtC/h3gpfBlGFcUZeDdHm8/7hvdby2y6RHBEwg=="],
 
-    "@jill64/attempt": ["@jill64/attempt@1.1.6", "", {}, "sha512-ECOU9LltYtZg1P/1k4lVq1qsUdwjotHLNQOJEOm2mMDJ4n+kDCCaKYtoK+Q9LoVf10pVfdCHvgxDAy1lb9kkHA=="],
+    "@jill64/attempt": ["@jill64/attempt@1.1.7", "", {}, "sha512-HDz3LqYilpuGx91lOQszQyngBULshdq5m3rO3uvCLI7SpM5He8kJmrdK3DzkdkBwdhiZk9PbkkTko0Dvd4nFbQ=="],
 
     "@jill64/eslint-config-svelte": ["@jill64/eslint-config-svelte@2.2.1", "", { "dependencies": { "@eslint/js": "9.22.0", "@types/eslint": "9.6.1", "eslint": "9.22.0", "eslint-config-prettier": "10.1.1", "eslint-plugin-svelte": "3.1.0", "svelte-eslint-parser": "1.0.1", "typescript-eslint": "8.26.1" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-jeV3PlDa3wY3mYJHg0QgS7uWxI0/uXRS7LsVHQUaJgaSSw2/it4s3pfJ5k9/kDrsNPoEMLo+VEgtNaKiyATJUQ=="],
 
