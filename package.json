@@ -79,7 +79,7 @@
     "@jill64/attempt": "1.1.7",
     "@jill64/async-observer": "1.2.6",
     "svelte-code-copy": "2.2.0",
-    "svelte-highlight": "7.8.2",
+    "svelte-highlight": "7.8.3",
     "unist-util-visit": "5.0.0"
   }
 }
